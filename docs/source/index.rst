@@ -1,4 +1,4 @@
-.. image:: docs/source/images/PCA logo round.jpg
+.. image:: images/PCA_logo_round.jpg
    :width: 100
 
 
