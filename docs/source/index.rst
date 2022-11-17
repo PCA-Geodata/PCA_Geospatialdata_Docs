@@ -1,5 +1,10 @@
+<h1><img src="docs/source/images/PCA logo round.jpg"  width="100" height="100"/> 
+
 Welcome to PCA Geopatial Data documentation.!
 ===================================
+
+
+
 
 This documentation is intended to offer support on the different innovations introduced by the **PCA Geospatial Data Department** offering quick access to guides, tutorials (and video tutorials!!!).
 
