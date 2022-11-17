@@ -3,7 +3,7 @@
 
 
 
-Welcome to PCA Geopatial Data documentation.!
+Welcome to PCA Geospatial Data documentation!
 ===================================
 
 
