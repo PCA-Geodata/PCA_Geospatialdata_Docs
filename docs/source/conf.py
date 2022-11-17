@@ -34,7 +34,7 @@ html_theme = 'sphinx_rtd_theme'
 
 
 html_static_path = ['_static']
-html_logo = "docs/source/images/PCA logo round.jpg"
+html_logo = "images/PCA_logo_round.jpg"
 html_theme_options = {
     'logo_only': True,
     'display_version': False,
