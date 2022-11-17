@@ -1,4 +1,7 @@
-<h1><img src="docs/source/images/PCA logo round.jpg"  width="100" height="100"/> 
+.. image:: docs/source/images/PCA logo round.jpg
+   :width: 100
+
+
 
 Welcome to PCA Geopatial Data documentation.!
 ===================================
