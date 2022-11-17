@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'PCA Geospatial Data Documentation'
-copyright = '2022, PCA'
+copyright = '2022, Pre-Construct Archaeology'
 author = 'Pinna V.'
 
 release = '0.0.1'
