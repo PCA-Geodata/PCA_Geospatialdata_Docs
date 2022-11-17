@@ -1,8 +1,8 @@
 """
-Lumache - Python library for cooks and food lovers.
+PCA Geopatial Data department documentation.
 """
 
-__version__ = "0.1.0"
+__version__ = "0.0.1"
 
 
 class InvalidKindError(Exception):
