@@ -3,7 +3,7 @@
 # -- Project information
 
 
-project = '<a href="https://www.pre-construct.com/">PCA Geospatial Data Documentation</a>'
+project = 'PCA Geospatial Data Documentation'
 copyright = '2022, Pre-Construct Archaeology'
 author = 'Pinna V.'
 
