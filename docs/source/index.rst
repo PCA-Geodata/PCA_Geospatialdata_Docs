@@ -25,5 +25,5 @@ Contents
 
    usage
    api
-   QGIS Plugins
-   Mergin
+   qgis_plugins
+   mergin
