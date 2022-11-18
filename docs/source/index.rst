@@ -34,7 +34,17 @@ Contents
    general
    qgis_plugins
    mergin
+
+QGIS
+--------
+
+.. toctree::
+   mergin
    
+   
+Digital Recording System
+--------
+
 .. toctree::
    mergin
 
