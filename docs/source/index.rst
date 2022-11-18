@@ -1,4 +1,4 @@
-.. image:: images/PCA_logo_round.jpg
+.. image:: images/PCA_logos/PCA_logo_round.png
    :width: 100
 
 
@@ -24,14 +24,18 @@ how to :ref:`installation` the project.
 
 .. note::
 
-   This project is currenlty under active development and it needs to be consider not stable.
+   This project is currenlty under active development and is to be consider not stable.
 
 Contents
 --------
 
 .. toctree::
 
-   usage
-   api
+   general
    qgis_plugins
    mergin
+   
+.. toctree::
+   mergin
+
+   
