@@ -10,10 +10,8 @@ To use QGIS....
 
 .. image:: images/PCA_geomax_survey_processing/PCA_geomax_plugin_toolbar_v2.png
    
-   :display: block
-   :margin-left: auto
-   :margin-right: auto
-   :width: 50%
+   :text-align: center
+   :width: 300
    
    
 aaaaaaaaaaaaaaaaaaaa
