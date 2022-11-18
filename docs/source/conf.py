@@ -38,6 +38,8 @@ html_logo = "images/PCA_logos/PCA_logo_rect_800x588.png"
 html_theme_options = {
     'logo_only': True,
     'display_version': False,
+    'inner_theme': True,
+    'inner_theme_name': 'bootswatch-amelia',
 }
 
 
