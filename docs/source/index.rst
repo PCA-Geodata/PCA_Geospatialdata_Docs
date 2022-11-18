@@ -22,7 +22,7 @@ how to :ref:`installation` the project.
 
 
 
-.. note::
+.. attention::
 
    This project is currenlty under active development and is to be consider not stable.
 
