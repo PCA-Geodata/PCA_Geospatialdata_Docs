@@ -32,6 +32,7 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme'
 
+html_favicon = 'source/images/PCA_logos/PCA_favicon_64x64.ico'
 
 html_static_path = ['_static']
 html_logo = "images/PCA_logos/PCA_logo_rect_800x588.png"
