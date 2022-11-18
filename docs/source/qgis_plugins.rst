@@ -14,7 +14,12 @@ To use QGIS....
    
 .. figure:: images/PCA_geomax_survey_processing/PCA_geomax_plugin_toolbar_v2.png
 :align: center
-   
+  
+:guilabel:`Render types`.
+
+QGIS offers many different :guilabel:`Render types`.
+The choice of renderer depends on the data type and the
+information you'd like to highlight.
    
 aaaaaaaaaaaaaaaaaaaa
 
