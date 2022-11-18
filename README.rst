@@ -1,9 +1,8 @@
-Template for the Read the Docs tutorial
+PCA Geopatial Data documentation
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+This documentation contains guides and tutorials to hele dealing with the new DRS/GIS integrated data recording and management system.
 
-Read the tutorial here:
+Read the documentation here:
 
-https://docs.readthedocs.io/en/stable/tutorial/
+https://pca-geospatial-data-documentation.readthedocs.io/en/latest/
