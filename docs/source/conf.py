@@ -35,7 +35,7 @@ html_theme = 'sphinx_rtd_theme'
 html_favicon = "static_images/PCA_logos/PCA_cropped_favicon_1.png"
 
 html_static_path = ['_static']
-html_logo = "static_images/PCA_logos/PCA_logo_rect_100x74.png"
+html_logo = "static_images/PCA_logos/PCA_logo_rect_100x73.png"
 html_theme_options = {
     # collapse_navigation: With this enabled, navigation entries are not expandable – the [+] icons next to each entry are removed. Default: True
     'collapse_navigation': True,
