@@ -35,7 +35,7 @@ html_theme = 'sphinx_rtd_theme'
 html_favicon = "static_images/PCA_logos/PCA_cropped_favicon_1.png"
 
 html_static_path = ['_static']
-html_logo = "docs/source/static_images/PCA_logos/PCA_favicon_64x64.ico"
+html_logo = "docs/source/static_images/PCA_logos/PCA_logo_rect_300x220.png"
 html_theme_options = {
     'logo_only': True,
     'display_version': False,
