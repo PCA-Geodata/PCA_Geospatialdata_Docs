@@ -1,5 +1,6 @@
 .. _QGIS-manual-index-reference:
 
+.. image:: 
 ===============
 QGIS Guides and Tutorials
 ===============
