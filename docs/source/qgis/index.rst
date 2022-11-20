@@ -1,8 +1,8 @@
 .. _QGIS-manual-index-reference:
 
-|qgis_logo|
+
 ===============
-QGIS Guides and Tutorials
+|qgis_logo|  QGIS Guides and Tutorials
 ===============
 
 .. note:: 
@@ -24,4 +24,4 @@ QGIS Guides and Tutorials
 
 
 .. |qgis_logo| image:: /static_images/qgis_common/qgis_main_logo.png
-   :width: 32em
+   :width: 10em
