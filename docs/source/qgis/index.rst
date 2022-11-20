@@ -1,6 +1,6 @@
 .. _QGIS-manual-index-reference:
 
-.. image:: 
+|qgis_logo|
 ===============
 QGIS Guides and Tutorials
 ===============
@@ -21,3 +21,7 @@ QGIS Guides and Tutorials
     qgis_workflow/
     qgis_printing/
     qgis_digitising/
+
+
+.. |qgis_logo| image:: /static_images/qgis_common/qgis_main_logo.png
+   :width: 32em
