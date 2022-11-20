@@ -32,10 +32,10 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme'
 
-html_favicon = 'source/images/PCA_logos/PCA_favicon_64x64.ico'
+html_favicon = "static_images/PCA_logos/PCA_cropped_favicon_1.png"
 
 html_static_path = ['_static']
-html_logo = "images/PCA_logos/PCA_logo_rect_800x588.png"
+html_logo = "docs/source/static_images/PCA_logos/PCA_favicon_64x64.ico"
 html_theme_options = {
     'logo_only': True,
     'display_version': False,
@@ -49,4 +49,4 @@ html_theme_options = {
 
 
 # -- Options for EPUB output
-epub_show_urls = 'footnote'
+# epub_show_urls = 'footnote'
