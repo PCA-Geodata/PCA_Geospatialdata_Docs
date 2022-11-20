@@ -1,6 +1,10 @@
 |PCA_round_logo|                  PCA Geospatial Data documentation
 =======================================
 
+.. image:: docs/source/static_images/rtd_common/Read-the docs-green.svg
+   
+
+
 This documentation contains guides and tutorials to help dealing with the new DRS/GIS integrated data recording and management system.
 
 Read the documentation here:
