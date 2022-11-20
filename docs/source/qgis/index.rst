@@ -15,7 +15,7 @@
     :maxdepth: 2
     :numbered: 4
 
-    qgis_starting/installation
+    qgis_starting/getting_started
     qgis_starting/basic_configuration
     qgis_plugins/
     qgis_workflow/
