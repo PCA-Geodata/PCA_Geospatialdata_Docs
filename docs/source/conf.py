@@ -35,7 +35,7 @@ html_theme = 'sphinx_rtd_theme'
 html_favicon = "static_images/PCA_logos/PCA_cropped_favicon_1.png"
 
 html_static_path = ['_static']
-html_logo = "static_images/PCA_logos/PCA_logo_rect_64x47.png"
+html_logo = "static_images/PCA_logos/PCA_logo_rect_100x73.png"
 html_theme_options = {
     # collapse_navigation: With this enabled, navigation entries are not expandable – the [+] icons next to each entry are removed. Default: True
     'collapse_navigation': True,
@@ -47,6 +47,8 @@ html_theme_options = {
     'display_version': True,
     # logo_only: Only display the logo image, do not display the project name at the top of the sidebar. Default: False,
     'logo_only': False,
+    # prev_next_buttons_location': Location to display Next and Previous buttons. This can be either bottom, top, both , or None. Default: 'bottom',
+    'prev_next_buttons_location': 'both',
 }
 
 
