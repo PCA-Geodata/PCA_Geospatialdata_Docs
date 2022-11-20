@@ -32,7 +32,7 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme'
 
-html_favicon = 'static_images/PCA_logos/PCA_favicon_64x64.ico'
+html_favicon = "https://www.pre-construct.com/wp-content/uploads/2021/09/cropped-favicon-1.png">
 
 html_static_path = ['_static']
 html_logo = "static_images/PCA_logos/PCA_logo_rect_800x588.png"
