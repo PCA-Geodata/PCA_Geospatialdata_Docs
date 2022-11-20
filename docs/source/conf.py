@@ -37,7 +37,7 @@ html_favicon = 'static_images/PCA_logos/PCA_favicon_64x64.ico'
 html_static_path = ['_static']
 html_logo = "static_images/PCA_logos/PCA_logo_rect_800x588.png"
 html_theme_options = {
-    'logo_only': False,
+    'logo_only': True,
     'display_version': False,
     'inner_theme': True,
     'inner_theme_name': 'bootswatch-amelia',
