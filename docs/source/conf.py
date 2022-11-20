@@ -35,9 +35,9 @@ html_theme = 'sphinx_rtd_theme'
 html_favicon = 'source/images/PCA_logos/PCA_favicon_64x64.ico'
 
 html_static_path = ['_static']
-html_logo = "images/PCA_logos/PCA_logo_rect_800x588.png"
+html_logo = "docs/source/static_images/PCA_logos/PCA_logo_rect_800x588.png"
 html_theme_options = {
-    'logo_only': True,
+    'logo_only': False,
     'display_version': False,
     'inner_theme': True,
     'inner_theme_name': 'bootswatch-amelia',
@@ -49,4 +49,4 @@ html_theme_options = {
 
 
 # -- Options for EPUB output
-epub_show_urls = 'footnote'
+# epub_show_urls = 'footnote'
