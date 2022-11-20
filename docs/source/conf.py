@@ -5,7 +5,7 @@
 
 project = 'PCA Geospatial Data Documentation'
 copyright = '2022, Pre-Construct Archaeology'
-author = 'Pinna V.'
+author = 'Pre-Costruct Archaeology - Geospatial Data Department'
 
 release = '0.0.1'
 version = '0.0.1'
@@ -35,14 +35,25 @@ html_theme = 'sphinx_rtd_theme'
 html_favicon = "static_images/PCA_logos/PCA_cropped_favicon_1.png"
 
 html_static_path = ['_static']
-html_logo = "docs/source/static_images/PCA_logos/PCA_logo_rect_300x220.png"
+html_logo = "static_images/PCA_logos/PCA_logo_rect_300x220.png"
 html_theme_options = {
-    'logo_only': True,
-    'display_version': False,
-    'inner_theme': True,
-    'inner_theme_name': 'bootswatch-amelia',
+    # collapse_navigation: With this enabled, navigation entries are not expandable – the [+] icons next to each entry are removed. Default: True
+    'collapse_navigation': True,
+    # sticky_navigation: Scroll the navigation with the main page content as you scroll the page. Default: True
+    'sticky_navigation': True,
+    # navigation_depth: The maximum depth of the table of contents tree. Set this to -1 to allow unlimited depth. Default: 4
+    'navigation_depth': 4,
+    # display_version: If True, the version number is shown at the top of the sidebar. Default: True,
+    'display_version': True,
+    # logo_only: Only display the logo image, do not display the project name at the top of the sidebar. Default: False,
+    'logo_only': False,
 }
 
+
+# Add any paths that contain custom static files (such as style sheets) here,
+# relative to this directory. They are copied after the builtin static files,
+# so a file named "default.css" will overwrite the builtin "default.css".
+html_static_path = ['static']
 
 
 
