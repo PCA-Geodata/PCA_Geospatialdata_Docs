@@ -47,6 +47,8 @@ html_theme_options = {
     'display_version': True,
     # logo_only: Only display the logo image, do not display the project name at the top of the sidebar. Default: False,
     'logo_only': False,
+    # prev_next_buttons_location': Location to display Next and Previous buttons. This can be either bottom, top, both , or None. Default: 'bottom',
+    'prev_next_buttons_location': 'both',
 }
 
 
