@@ -18,7 +18,7 @@ The choice of a ReadtheDocs documentation format has been dictated by the intent
 
 If you are new to this documentation, the table of contents below and in the sidebar should let you easily access the documentation for your topic of interest. You can also use the search function in the top left corner
 
-.. figure:: /static_images/2022-11-27_00h34_34.gif
+.. image:: /static_images/2022-11-27_00h34_34.gif
    :width: 100px
    Test for caption 
  
