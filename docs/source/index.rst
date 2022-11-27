@@ -17,7 +17,7 @@ The documentation is constantly updated and it can be viewed online or downloade
 The choice of a ReadtheDocs documentation format has been dictated by the intention to offer a *simple* and *intuitive* interface, which guarantees a collaborative space where everyone can add information and correct possible errors.
 
 .. raw:: html
- <video controls src="static_images/video.mp4"></video>
+   <video controls src="/static_images/video.mp4"></video>
 
 If you are new to this documentation, the table of contents below and in the sidebar should let you easily access the documentation for your topic of interest. You can also use the search function in the top left corner
 
