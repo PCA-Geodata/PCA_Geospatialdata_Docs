@@ -17,15 +17,13 @@ The documentation is constantly updated and it can be viewed online or downloade
 The choice of a ReadtheDocs documentation format has been dictated by the intention to offer a *simple* and *intuitive* interface, which guarantees a collaborative space where everyone can add information and correct possible errors.
 
 .. raw:: html
-   <video width="320" height="240" controls>
-   <source src="static_images/video.mp4" type="video/mp4">
-   </video>
+   <video controls src="static_images/video.mp4"></video>
 
 If you are new to this documentation, the table of contents below and in the sidebar should let you easily access the documentation for your topic of interest. You can also use the search function in the top left corner
 
 .. image:: static_images/2022-11-27_00h34_34.gif
-   :width: 100px
-   
+   :width: 200px
+   :align: center
 
 Besides the online access to this documentation, this pages can be downloaded for offline reading. They are accessible from the
 :guilabel:`Read the Docs` menu at the bottom of the sidebar, as:
