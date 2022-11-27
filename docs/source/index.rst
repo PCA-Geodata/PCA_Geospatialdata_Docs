@@ -23,7 +23,7 @@ If you are new to this documentation, the table of contents below and in the sid
  
 .. raw:: html
 
-<video controls src="/static_images/video.mp4 "></video>
+   <video controls src="/static_images/video.mp4 "></video>
    
 
 Besides the online access to this documentation, this pages can be downloaded for offline reading. They are accessible from the
