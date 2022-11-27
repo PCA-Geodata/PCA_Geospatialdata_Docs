@@ -19,6 +19,8 @@ The choice of a ReadtheDocs documentation format has been dictated by the intent
 If you are new to this documentation, the table of contents below and in the sidebar should let you easily access the documentation for your topic of interest. You can also use the search function in the top left corner
 
 .. image:: /static_images/2022-11-27_00h34_34.gif
+
+.. figure:: /static_images/video.mp4 
    
 
 Besides the online access to this documentation, this pages can be downloaded for offline reading. They are accessible from the
