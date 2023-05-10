@@ -4,7 +4,7 @@
 
 
 project = 'PCA Geospatial Data Documentation'
-copyright = '2022, Pre-Construct Archaeology'
+copyright = '2023, Pre-Construct Archaeology'
 author = 'Pre-Costruct Archaeology - Geospatial Data Department'
 
 release = '0.0.1'
@@ -62,4 +62,4 @@ html_static_path = ['static_images']
 
 
 # -- Options for EPUB output
-# epub_show_urls = 'footnote'
+epub_show_urls = 'footnote'
