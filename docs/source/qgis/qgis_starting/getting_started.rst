@@ -27,6 +27,8 @@ For these reasons, it is very important that all the workstations are using the 
 
 Currently the version used is the **3.22.10-1** (that it will be soon replaced by the 3.26.6) 
 
+
+
 Installing QGIS
 ===============
 
