@@ -23,13 +23,13 @@ The internal folder structure of Google Drive is the same as that used on the lo
 
 2. Create a new Project folder for your project. If a subdivision in areas is planned, consider using the same subdivision in the folder structure.
 
-3. Right-click on the DRS Form template located in the home and select *Make a copy*
+3. Right-click on the DRS Form template located in the home and select **Make a copy**
 
 .. image:: images/DRS_initial_configuration_001.png
    :width: 600
    :align: center
 
-4. Move your copy into the project folder. Right-click on the form and select *Move to*
+4. Move your copy into the project folder. Right-click on the form and select **Move to**
 
 .. image:: images/DRS_initial_configuration_002.png
    :width: 600
@@ -40,11 +40,11 @@ The internal folder structure of Google Drive is the same as that used on the lo
 Configuring the Google Form and the Google Spreadsheet
 ----------------------
 
-6. Open the form. When the Form is being opened for the first time, a message will appear asking to restore the Missing File Upload folders.
+6. Open the form. When the Form is being opened for the first time, a message will appear asking to restore the *Missing File Upload folders*.
 
-  Those are the folders where the images used as attachments (e.g., sketches or feature overview photos) will be       stored.
+  Those are the folders where the images used as attachments (e.g., sketches or feature overview photos) will be stored.
 
-7. Press Restore to allow Google to automatically create the required subfolder structure.
+7. Press **Restore** to allow Google to automatically create the required subfolder structure.
    
 .. image:: images/DRS_initial_configuration_003.png
    :width: 600
@@ -65,7 +65,7 @@ Configuring the Google Form and the Google Spreadsheet
    :width: 600
    :align: center
 
-10. In the new popup window check that the first option is selected (Create a new spreadsheet) and click on Create.
+10. In the new popup window check that the first option is selected (*Create a new spreadsheet*) and click on **Create**.
 
 .. image:: images/DRS_initial_configuration_006.png
    :width: 600
@@ -74,15 +74,37 @@ Configuring the Google Form and the Google Spreadsheet
 
 Our files are now ready on the main Google Drive account. They need to be sent or shared to be used on site on the tablets.
 
+Configuring the tablets
+----------------------
 
-11. Sending the Google Form to the tablets
-As we want people on site to be able to fill out the form, but not modify it, we just send an email an invitation to fill out the form.
-On the open form, click on Share.
-On the new popup window, add the tablet Google account email (1) (it is possible to add more than one email for time). Check that the option Include form in email (2) is unchecked and then, press Send (3)
-On the tablet, open the received email and click on Fill out Form to open it on the browser.
+Sending the Google Form to the tablets
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+11. As we want people on site to be able to fill out the form, but not modify it, we just send an email an invitation to fill out the form.
+On the open form, click on **Share**.
+
+.. image:: images/DRS_initial_configuration_011.png
+   :width: 600
+   :align: center
+
+On the new opened popup window, add the tablet Google account email (1) (it is possible to add more than one email for time). Check that the option *Include form in email* (2) is unchecked and then, press **Send** (3)
+
+.. image:: images/DRS_initial_configuration_012.png
+   :width: 600
+   :align: center
+
+On the tablet, open the received email and click on *Fill out Form* to open it on the browser.
+
+.. image:: images/DRS_initial_configuration_012.png
+   :width: 600
+   :align: center
+   
 On the open form, send the page as a bookmark on the home screen to have quick access to it.
-12. Sharing the Google Spreadsheet with the tablets.
-Unlike before, we want people to be able to access the table for comments and changes.
+
+Sharing the Google Spreadsheet with the tablets
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+12. Unlike before, we want people to be able to access the table for comments and changes.
 In this case, therefore, instead of sending a link, we will share the table with the tablet Google account.
 Open the Spreadsheet and click on Share
 In the new popup window Click on Add people and groups and add the tablet Google Account.
