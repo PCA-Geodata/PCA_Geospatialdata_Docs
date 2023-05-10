@@ -6,7 +6,7 @@
 Welcome to PCA Geospatial Data documentation!
 ===================================
 
-This documentation is intended to offer support on the different innovations introduced by the **PCA Geospatial Data Department** making available quick access to guides, tutorials (and video tutorials!!!).
+This documentation is intended to offer support on the different innovations introduced by the **PCA Geospatial Data Department** making available quick access to guides, tutorials (and soon video tutorials!!!).
 
 .. attention::
 
@@ -29,7 +29,7 @@ Besides the online access to this documentation, this pages can be downloaded fo
 
 .. note:: The documentation is constantly updated and new sections are added frequently.
    Requests for new sections and guides are welcome, as is your feedback. If something isn't clear enough, or you can't find what you're looking
-   for in the docs, help us improve them by letting us know. Primary contact is geospatialdata@pre-construct.com
+   for in the docs, help us improve them by letting us know by contacting us to geospatialdata@pre-construct.com
 
 Please have a look into one of the sections below.
 
