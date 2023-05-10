@@ -20,9 +20,10 @@ This chapter provides a quick overview of how to configure the DRS fon Cloud and
 Configuring a new folder on the cloud DRS storage account
 ----------------------
 
-The current DRS data is stored in a main Google Drive account. 
+The current DRS data is stored in a main Google Drive account.
+
 .. note:: 
-	Contact geospatialdata@pre-construct.com for the credentials.	
+   Contact geospatialdata@pre-construct.com for the credentials.	
 
 The internal folder structure of Google Drive is the same as that used on the local server project folder, with a subdivision in counties, towns and sites.
 

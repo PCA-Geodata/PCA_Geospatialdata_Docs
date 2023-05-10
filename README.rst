@@ -16,5 +16,5 @@ https://pca-geospatial-data-documentation.readthedocs.io/en/latest/
 
 
 
-.. |PCA_round_logo| image:: docs/source/static_images/PCA_logos/PCA_logo_round.png
+.. |PCA_round_logo| image::_static/images/PCA_logos/PCA_logo_round.png
    :width: 65
