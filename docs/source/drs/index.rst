@@ -16,16 +16,16 @@ A dedicated form covers the Trench sheet.
 
 In the current DRS configuration, all the registers are still in paper format. This limitation depends on the current Google Form solution.
 
-.. note:: A dedicated PCA DRS web application is currently under development and it will solve all the current limitations.  
+.. important:: A dedicated PCA DRS web application is currently under development and it will solve all the current limitations.  
 
 
 .. toctree::
     :maxdepth: 2
     :numbered: 4
 
-    drs_starting/DRS_configuration
+    drs_configuration/DRS_initial_configuration
 	
     
 
-.. |DRS_logo| image:: ../static_images/DRS_common/logo PCA DRS square lr.png
+.. |DRS_logo| image:: static_images/DRS_common/logo PCA DRS square lr.png
    :width: 8em
