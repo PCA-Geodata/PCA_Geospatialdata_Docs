@@ -68,6 +68,31 @@ html_theme_options = {
 }
 
 
+# -- Options for LaTeX output --------------------------------------------------
+
+latex_engine = 'xelatex'
+
+# The paper size ('letter' or 'a4').
+latex_paper_size = 'a4'
+
+# The font size ('10pt', '11pt' or '12pt').
+#latex_font_size = '10pt'
+
+
+
+# The name of an image file (relative to this directory) to place at the top of
+# the title page.
+latex_logo = '_static/images/PCA_logos/PCA_logo_round.png'
+
+
+
+
+
+
+
+
+
+
 
 
 # -- Options for EPUB output
