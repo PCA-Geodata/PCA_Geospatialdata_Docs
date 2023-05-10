@@ -19,7 +19,8 @@
 
 project = "PCA Geospatial Data Documentation"
 copyright = '2023, Pre-Construct Archaeology Ltd'
-author = 'Pre-Costruct Archaeology - Geospatial Data Department'
+author = 'Pre-Costruct Archaeology Ltd \n\
+          Geospatial Data Department'
 
 
 # -- General configuration ---------------------------------------------------
