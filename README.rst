@@ -1,7 +1,7 @@
 |PCA_round_logo|                  PCA Geospatial Data documentation
 =======================================
 
-.. image:: _static/images/rtd_common/Read_the_docs_green.svg
+.. image:: docs/_static/images/rtd_common/Read_the_docs_green.svg
 
          
    
@@ -16,5 +16,5 @@ https://pca-geospatial-data-documentation.readthedocs.io/en/latest/
 
 
 
-.. |PCA_round_logo| image:: _static/images/PCA_logos/PCA_logo_round.png
+.. |PCA_round_logo| image:: docs/_static/images/PCA_logos/PCA_logo_round.png
    :width: 65
