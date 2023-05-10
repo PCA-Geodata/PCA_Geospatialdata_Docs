@@ -25,6 +25,7 @@ For the functionality of each plugin to be guaranteed, it is important that all 
 
 For these reasons, it is very important that all the workstations are using the same QGIS LTR version and that each update is previously authorized by the geospatial data team.
 
+Currently the version used is the **3.22.10-1** (that it will be soon replaced by the 3.26.6) 
 
 Installing QGIS
 ===============
