@@ -249,27 +249,7 @@ features and settings, and how to use them.
    please add it also to the substitutions.txt file in the
    source folder.
 
-.. |checkbox| image:: /static_images/qgis_common/checkbox.png
-   :width: 1.3em
-.. |dataSourceManager| image:: /static_images/qgis_common/mActionDataSourceManager.png
-   :width: 1.5em
-.. |fileSave| image:: /static_images/qgis_common/mActionFileSave.png
-   :width: 1.5em
-.. |labelingSingle| image:: /static_images/qgis_common/labelingSingle.png
-   :width: 1.5em
-.. |nix| image:: /static_images/qgis_common/nix.png
-   :width: 1em
-.. |osx| image:: /static_images/qgis_common/osx.png
-   :width: 1em
-.. |saveMapAsImage| image:: /static_images/qgis_common/mActionSaveMapAsImage.png
-   :width: 1.5em
-.. |symbology| image:: /static_images/qgis_common/symbology.png
-   :width: 2em
-.. |win| image:: /static_images/qgis_common/win.png
-   :width: 1em
-.. |zoomIn| image:: /static_images/qgis_common/mActionZoomIn.png
-   :width: 1.5em
-
-
-.. |DRS_conf_001| image:: images/DRS/DRS_initial_configuration_001.jpg
+.. |DRS_conf_001| image:: ../../images/DRS/DRS_initial_configuration_001.jpg
    :width: 8em
+   :align: center
+   
