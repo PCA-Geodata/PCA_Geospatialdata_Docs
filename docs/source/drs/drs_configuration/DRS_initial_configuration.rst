@@ -51,6 +51,7 @@ Configuring the Google Form and the Google Spreadsheet
    :align: center
 
 
+
 8. In the top part of the Form, add your SITECODE and SITENAME.
 
 .. image:: images/DRS_initial_configuration_004.png
@@ -83,40 +84,68 @@ Sending the Google Form to the tablets
 11. As we want people on site to be able to fill out the form, but not modify it, we just send an email an invitation to fill out the form.
 On the open form, click on **Share**.
 
-.. image:: images/DRS_initial_configuration_011.png
+
+.. image:: images/DRS_initial_configuration_007.png
    :width: 600
    :align: center
 
 On the new opened popup window, add the tablet Google account email (1) (it is possible to add more than one email for time). Check that the option *Include form in email* (2) is unchecked and then, press **Send** (3)
 
-.. image:: images/DRS_initial_configuration_012.png
+.. image:: images/DRS_initial_configuration_008.png
    :width: 600
    :align: center
 
-On the tablet, open the received email and click on *Fill out Form* to open it on the browser.
+12. On the tablet, open the received email and click on *Fill out Form* to open it on the browser.
 
-.. image:: images/DRS_initial_configuration_012.png
+.. image:: images/DRS_initial_configuration_009.png
    :width: 600
    :align: center
+   
+   
    
 On the open form, send the page as a bookmark on the home screen to have quick access to it.
 
 Sharing the Google Spreadsheet with the tablets
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-12. Unlike before, we want people to be able to access the table for comments and changes.
+13. Unlike before, we want people to be able to access the table for comments and changes.
+
 In this case, therefore, instead of sending a link, we will share the table with the tablet Google account.
+
 Open the Spreadsheet and click on Share
-In the new popup window Click on Add people and groups and add the tablet Google Account.
-A new window will open. Here you can define the level of permit that you want to give to the tablet’s account. Click on Editor and select the desired option.
-A Viewer can only see the spreadsheet.
-A Commenter can add comments but can’t edit the spreadsheet.
-An Editor can see the comments and edit the spreadsheet.
+
+.. image:: images/DRS_initial_configuration_010.png
+   :width: 600
+   :align: center
+
+
+In the new popup window click on **Add people and groups** and add the tablet Google Account.
+
+.. image:: images/DRS_initial_configuration_011.png
+   :width: 600
+   :align: center
+   
+   
+
+A new window will open. Here you can define the level of permit that you want to give to the tablet’s account. 
+Click on **Editor** and select the desired option.
+
+.. image:: images/DRS_initial_configuration_012.png
+   :width: 600
+   :align: center
+
+   - A Viewer can only see the spreadsheet.
+   
+   - A Commenter can add comments but can’t edit the spreadsheet.
+   
+   - An Editor can see the comments and edit the spreadsheet.
+   
 Usually, all the tablets need at least Commenter permits to allow people to add a comment to request a correction or an amendment on the data they inserted through the form.
 Only one tablet, used by the PO/Supervisor, will have Editor permits to allow corrections.
 Configure the sharing according to the chosen strategy and press Send to share the spreadsheet.
 Repeat the operation for all the tablets in use on-site.
-On the tablet, open Google Drive to access the shared copy of the spreadsheet and create a bookmark on the home screen to generate quick access to it.   
+
+14. On the tablet, open Google Drive to access the shared copy of the spreadsheet and create a bookmark on the home screen to generate quick access to it.   
    
    
    
