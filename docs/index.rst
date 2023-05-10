@@ -29,7 +29,7 @@ Besides the online access to this documentation, this pages can be downloaded fo
 
 .. note:: The documentation is constantly updated and new sections are added frequently.
    Requests for new sections and guides are welcome, as is your feedback. If something isn't clear enough, or you can't find what you're looking
-   for in the docs, help us improve the docs by letting us know.
+   for in the docs, help us improve them by letting us know. Primary contact is geospatialdata@pre-construct.com
 
 Please have a look into one of the sections below.
 
