@@ -41,11 +41,11 @@ Press Restore to allow Google to automatically create the required subfolder str
 
 |DRS_conf_002|
 
-
-.. |DRS_conf_001| image:: ../images/DRS_initial_configuration_001.jpg
+			
+.. |DRS_conf_001| image:: images/DRS_initial_configuration_001.jpg
    :width: 400
    :align: center
    
-.. |DRS_conf_002| image:: ../images/DRS_initial_configuration_002.jpg
+.. |DRS_conf_002| image:: images/DRS_initial_configuration_002.jpg
    :width: 400
    :align: center
