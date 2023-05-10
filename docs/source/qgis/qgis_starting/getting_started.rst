@@ -12,9 +12,20 @@ Getting Started
    .. contents::
       :local:
 
-This chapter provides a quick overview of installing QGIS, downloading QGIS
-sample data, and running a first simple session visualizing raster and vector
-data.
+This chapter provides a quick overview of installing and configuring QGIS. 
+
+On any PCA workstation, you will find an updated version of QGIS (if you need to install the software on a new computer, you can refer to our IT department or to our Geospatial Data department for support).
+
+Whether you are using a pre-installed version of QGIS or you are installing a new version from scratch, it is very important to know how QGIS versions work. 
+
+QGIS is a very prolific software with frequent updates and new version releases (every 4 months). This allows the developers to provide the community with constant support, both introducing new features and fixing in short time bugs and issues. 
+
+This means that in a single year, 5 different versions of QGIS are available for download, but only one of them will be labelled as LTR (Longe Term Release), which is the suggested version for business use and that guarantees a longer continuity of features and tools along all the year, without big changes.
+
+Furthermore, PCA's current QGIS workflow makes extensive use of add-ons and plugins specifically developed for our integrated DRS/GIS system.
+For the functionality of each plugin to be guaranteed, it is important that all workstations use a version of QGIS previously tested by the Geospatial data department.
+
+For these reasons, it is very important that all the workstations are using the same QGIS LTR version and that each update is previously authorized by the geospatial data team.
 
 .. index:: Installation
 .. _`label_installation`:
@@ -22,7 +33,9 @@ data.
 Installing QGIS
 ===============
 
-QGIS project provides different ways to install QGIS depending on your platform.
+As just described, several versions of QGIS exist at the same time and, often, the version currently chosen as the one to be used in our company is no longer among the versions available for download on the official software site.
+
+On the understanding that the management of QGIS versions in corporate workstations is the responsibility of IT departments or geospatial data, to which reference can be made for any request for help, if, for a specific reason, you need to install a copy of QGIS in your own workstation, you can access to the current installation files in our server at the address *Z:\GeoSpatialData_Resources\QGIS_Resources\Current_QGIS_Installer*
 
 Installing from binaries
 ------------------------
@@ -60,165 +73,11 @@ See section :ref:`env_options` for additional information.
 
 
 .. index:: Data sample
-.. _label_sampledata:
-
-Downloading sample data
------------------------
-
-This user guide contains examples based on the QGIS sample dataset (also called
-the ``Alaska dataset``).  Download the sample data from
-https://github.com/qgis/QGIS-Sample-Data/archive/master.zip and unzip the archive
-on any convenient location on your system.
-
-The Alaska dataset includes all GIS data that are used for the examples and
-screenshots in this user guide; it also includes a small GRASS database.
-The projection for the QGIS sample datasets is Alaska Albers Equal Area with
-units feet. The EPSG code is 2964.
-
-::
-
-  PROJCS["Albers Equal Area",
-  GEOGCS["NAD27",
-  DATUM["North_American_Datum_1927",
-  SPHEROID["Clarke 1866",6378206.4,294.978698213898,
-  AUTHORITY["EPSG","7008"]],
-  TOWGS84[-3,142,183,0,0,0,0],
-  AUTHORITY["EPSG","6267"]],
-  PRIMEM["Greenwich",0,
-  AUTHORITY["EPSG","8901"]],
-  UNIT["degree",0.0174532925199433,
-  AUTHORITY["EPSG","9108"]],
-  AUTHORITY["EPSG","4267"]],
-  PROJECTION["Albers_Conic_Equal_Area"],
-  PARAMETER["standard_parallel_1",55],
-  PARAMETER["standard_parallel_2",65],
-  PARAMETER["latitude_of_center",50],
-  PARAMETER["longitude_of_center",-154],
-  PARAMETER["false_easting",0],
-  PARAMETER["false_northing",0],
-  UNIT["us_survey_feet",0.3048006096012192]]
-
-If you intend to use QGIS as a graphical front end for GRASS, you can find a
-selection of sample locations (e.g., Spearfish or South Dakota) at the
-official GRASS GIS website, https://grass.osgeo.org/download/sample-data/.
-
-.. index:: Start QGIS, Stop QGIS
-.. _`label_startingqgis`:
-
-Starting and stopping QGIS
-==========================
-
-QGIS can be started like any other application on your computer.
-This means that you can launch QGIS by:
-
-* using |nix| the Applications menu, |win| the Start menu, or |osx| the Dock
-* double clicking the icon in your Applications folder or desktop shortcut
-* double clicking an existing QGIS project file (with :file:`.qgz` or :file:`.qgs`
-  extension). Note that this will also open the project.
-* typing ``qgis`` in a command prompt (assuming that QGIS is added to your PATH
-  or you are in its installation folder)
-
-To stop QGIS, use:
-
-* |nix| |win| the menu option :menuselection:`Project --> Exit QGIS` or use the
-  shortcut :kbd:`Ctrl+Q`
-* |osx| :menuselection:`QGIS --> Quit QGIS`, or use the shortcut :kbd:`Cmd+Q`
-* or use the red cross at the top-right corner of the main interface of the application.
-
-
-.. _samplesession:
-
-Sample Session: Loading raster and vector layers
+.. _label~@~~~~~~~~~~~~~~~~~~~~~~~~~~
 ================================================
 
-Now that you have :ref:`QGIS installed <label_installation>` and a :ref:`sample
-dataset <label_sampledata>` available, we will demonstrate a first sample
-session. In this example, we will visualize a raster and a vector layer.
-We will use:
 
-* the :file:`landcover` raster layer (:file:`qgis_sample_data/raster/landcover.img`)
-* and the :file:`lakes` vector layer (:file:`qgis_sample_data/gml/lakes.gml`)
 
-Where :file:`qgis_sample_data` represents the path to the unzipped dataset.
-
-#. Start QGIS as seen in :ref:`label_startingqgis`.
-#. To load the files in QGIS:
-
-   #. Click on the |dataSourceManager| :sup:`Open Data Source Manager` icon.
-      The Data Source Manager should open in Browser mode.
-   #. Browse to the folder :file:`qgis_sample_data/raster/`
-   #. Select the ERDAS IMG file :file:`landcover.img` and double-click it.
-      The landcover layer is added in the background while the Data Source
-      Manager window remains open.
-
-      .. _figure_addstartraster:
-
-      .. figure:: img/add_raster.png
-         :align: center
-
-         Adding data to a new project in QGIS
-
-   #. To load the lakes data, browse to the folder :file:`qgis_sample_data/gml/`,
-      and double-click the :file:`lakes.gml` file to open it.
-   #. A :guilabel:`Coordinate Reference System Selector` dialog opens. In the
-      :guilabel:`Filter` menu, type ``2964``, filtering the list of Coordinate
-      Reference Systems below.
-
-      .. _figure_selectCRS:
-
-      .. figure:: img/selectCRS.png
-         :align: center
-
-         Select the Coordinate Reference System of data
-
-   #. Select the :guilabel:`NAD27 / Alaska Albers` entry
-   #. Click :guilabel:`OK`
-   #. Close the Data Source Manager window
-
-You now have the two layers available in your project in some random colours.
-Let's do some customization on the lakes layer.
-
-#. Select the |zoomIn| :sup:`Zoom In` tool on the :guilabel:`Navigation` toolbar
-#. Zoom to an area with some lakes
-#. Double-click the :file:`lakes` layer in the map legend to open the
-   :guilabel:`Properties` dialog
-#. To change the lakes color:
-
-   #. Click on the |symbology| :guilabel:`Symbology` tab
-   #. Select blue as fill color.
-
-      .. _figure_selectColor:
-
-      .. figure:: img/selectFillColor.png
-         :align: center
-
-         Selecting Lakes color
-
-   #. Press :guilabel:`OK`. Lakes are now displayed in blue in the map canvas.
-#. To display the name of the lakes:
-
-   #. Reopen the :file:`lakes` layer :guilabel:`Properties` dialog
-   #. Click on the |labelingSingle| :guilabel:`Labels` tab
-   #. Select :guilabel:`Single labels` in the drop-down menu to enable labeling.
-   #. From the :guilabel:`Label with` list, choose the ``NAMES`` field.
-
-      .. _figure_showLabels:
-
-      .. figure:: img/showLabels.png
-         :align: center
-
-         Showing Lakes names
-
-   #. Press :guilabel:`Apply`. Names will now load over the boundaries.
-#. You can improve readability of the labels by adding a white buffer around them:
-
-   #. Click the :guilabel:`Buffer` tab in the list on the left
-   #. Check |checkbox| :guilabel:`Draw text buffer`
-   #. Choose ``3`` as buffer size
-   #. Click :guilabel:`Apply`
-   #. Check if the result looks good, and update the value if needed.
-   #. Finally click :guilabel:`OK` to close the :guilabel:`Layer Properties`
-      dialog and apply the changes.
 
 Let's now add some decorations in order to shape the map and export it out of
 QGIS:

@@ -6,7 +6,7 @@ QGIS Guides and Tutorials
 ===============
 
 .. note:: 
-	Some parts of this guides are inspired by the original `QGIS User Manual <https://docs.qgis.org/3.22/en/docs/user_manual/index.html>`_
+	Some parts of this guides are inspired by the original `QGIS User Manual <https://docs.qgis.org/3.28/en/docs/user_manual/index.html>`_
 	
 	If you want to learn more about some of the topics covered here, it is advisable to visit the official documentation.
 	
