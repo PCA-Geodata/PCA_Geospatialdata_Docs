@@ -1,4 +1,4 @@
-.. image:: /_static/images/PCA_logos/PCA_logo_round.png
+.. image:: _static/images/PCA_logos/PCA_logo_round.png
    :width: 100
 
 
