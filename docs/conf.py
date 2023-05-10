@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "Basic Sphinx Example Project"
-copyright = "2022, Read the Docs core team"
-author = "Read the Docs core team"
+project = "PCA Geospatial Data Documentation"
+copyright = '2023, Pre-Construct Archaeology'
+author = 'Pre-Costruct Archaeology - Geospatial Data Department'
 
 
 # -- General configuration ---------------------------------------------------
@@ -42,6 +42,34 @@ intersphinx_disabled_domains = ["std"]
 
 templates_path = ["_templates"]
 
+
+
+# -- Options for HTML output
+
+html_theme = 'sphinx_rtd_theme'
+
+html_favicon = "static_images/PCA_logos/PCA_cropped_favicon_1.png"
+
+html_static_path = ['_static']
+html_logo = "static_images/PCA_logos/PCA_logo_rect_100x73.png"
+html_theme_options = {
+    # collapse_navigation: With this enabled, navigation entries are not expandable – the [+] icons next to each entry are removed. Default: True
+    'collapse_navigation': True,
+    # sticky_navigation: Scroll the navigation with the main page content as you scroll the page. Default: True
+    'sticky_navigation': True,
+    # navigation_depth: The maximum depth of the table of contents tree. Set this to -1 to allow unlimited depth. Default: 4
+    'navigation_depth': 4,
+    # display_version: If True, the version number is shown at the top of the sidebar. Default: True,
+    'display_version': True,
+    # logo_only: Only display the logo image, do not display the project name at the top of the sidebar. Default: False,
+    'logo_only': False,
+    # prev_next_buttons_location': Location to display Next and Previous buttons. This can be either bottom, top, both , or None. Default: 'bottom',
+    'prev_next_buttons_location': 'both',
+}
+
+
+
+
 # -- Options for EPUB output
 epub_show_urls = "footnote"
 
@@ -55,9 +83,9 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = "sphinx_rtd_theme"
+#html_theme = "sphinx_rtd_theme"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ["_static"]
+html_static_path = ["source/static_images"]
