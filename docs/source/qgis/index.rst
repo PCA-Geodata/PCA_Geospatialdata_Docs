@@ -23,5 +23,5 @@ QGIS Guides and Tutorials
     qgis_digitising/
 
 
-.. |qgis_logo| image:: /_static/qgis_common/qgis_main_logo.png
+.. |qgis_logo| image:: ../../_static/images/qgis_common/qgis_main_logo.png
    :width: 8em
