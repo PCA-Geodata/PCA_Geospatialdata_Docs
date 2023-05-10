@@ -27,5 +27,5 @@ In the current DRS configuration, all the registers are still in paper format. T
 	
     
 
-.. |DRS_logo| image:: static_images/DRS_common/logo PCA DRS square lr.png
+.. |DRS_logo| image:: ../../static_images/DRS_common/logo_PCA_DRS_square_lr.jpg
    :width: 8em
