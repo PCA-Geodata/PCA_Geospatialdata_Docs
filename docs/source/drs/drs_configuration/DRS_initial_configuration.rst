@@ -7,11 +7,6 @@
 DRS Initial Configuration
 ***************
 
-.. only:: html
-
-   .. contents::
-      :local:
-
 This chapter provides a quick overview of how to configure the DRS fon Cloud and tablets for  a new project.
 
 .. index:: Installation
@@ -31,7 +26,9 @@ Create a new Project folder for your project. If a subdivision in areas is plann
 
 Right-click on the DRS Form template located in the home and select Make a copy
 
-|DRS_conf_001|
+.. image:: images/DRS_initial_configuration_001.jpg
+   :width: 600
+   :align: center
 
 Go to your project folder and rename your copy of the Form template with your Site Code and Site Name (e.g., LNDBKP22_London_Buckingham_Palace_PCA_DRS_Trench_sheet or LNDBKP22_London_Buckingham_Palace_PCA_DRS_ Context _sheet)
 
@@ -44,9 +41,7 @@ Press Restore to allow Google to automatically create the required subfolder str
 |DRS_conf_002|
 
 			
-.. |DRS_conf_001| image:: images/DRS_initial_configuration_001.jpg
-   :width: 400
-   :align: center
+
    
 .. |DRS_conf_002| image:: images/DRS_initial_configuration_002.jpg
    :width: 400
