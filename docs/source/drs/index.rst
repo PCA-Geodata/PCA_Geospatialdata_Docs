@@ -1,7 +1,7 @@
 .. _DRS-manual-index-reference:
 
 |DRS_logo|
-===============
+
 Digital Recording System Guides and Tutorials
 ===============
 
@@ -28,4 +28,5 @@ In the current DRS configuration, all the registers are still in paper format. T
     
 
 .. |DRS_logo| image:: ../../_static/images/drs_common/logo_PCA_DRS_square_lr.jpg
-   :width: 20em
+   :width: 30em
+   
