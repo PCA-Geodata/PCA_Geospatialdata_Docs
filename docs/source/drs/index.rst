@@ -25,5 +25,5 @@ A dedicated form covers the Trench sheet.
 	
     
 
-.. |DRS_logo| image:: source/static_images/DRS_common/logo PCA DRS square lr.png
+.. |DRS_logo| image:: ../static_images/DRS_common/logo PCA DRS square lr.png
    :width: 8em

@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = "PCA Geospatial Data Documentation"
-copyright = '2023, Pre-Construct Archaeology'
+copyright = '2023, Pre-Construct Archaeology Ltd'
 author = 'Pre-Costruct Archaeology - Geospatial Data Department'
 
 
