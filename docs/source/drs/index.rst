@@ -12,6 +12,7 @@ All the data inserted are automatically (and instantly) converted into a spreads
 In addition to eliminating the need to manually compile a database in the post-excavation phase, the recorded data is immediately available on the GIS project (and on Mergin)  and, being linked to the site plan data, they can be managed, edited and interrogated.
 
 Currently,  the PCA Digital Recording System comprises all the sheets, from the context sheet to the specialistic sheets (cremation sheet, skeleton sheet, masonry sheet, timber sheet), all available in the same form, which, based on the basic answers provided (type, category), adapts automatically, showing specific questions available for the type of feature registered.
+A dedicated form covers the Trench sheet. 
 
 
 
@@ -24,5 +25,5 @@ Currently,  the PCA Digital Recording System comprises all the sheets, from the 
 	
     
 
-.. |DRS_logo| image:: /static_images/DRS_common/logo PCA DRS square lr.png
+.. |DRS_logo| image:: source/static_images/DRS_common/logo PCA DRS square lr.png
    :width: 8em
