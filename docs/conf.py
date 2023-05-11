@@ -83,10 +83,6 @@ latex_font_size = '10pt'
 # the title page.
 latex_logo = '_static/images/PCA_logos/PCA_logo_round_400x400.png'
 
-# images size - test code
-latex_elements = {
-    'preamble': r'\setkeys{{Gin}}{{width=0.8\\textwidth}}'
-}
 
 # -- Options for EPUB output
 epub_show_urls = "footnote"
