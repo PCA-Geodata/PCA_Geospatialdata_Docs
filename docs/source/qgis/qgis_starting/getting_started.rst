@@ -34,7 +34,7 @@ Installing QGIS
 
 As just described, several versions of QGIS exist at the same time and, often, the version currently chosen as the one to be used in our company is no longer among the versions available for download on the official software site.
 
-On the understanding that the management of QGIS versions in corporate workstations is the responsibility of IT departments or geospatial data, to which reference can be made for any request for help, if, for a specific reason, you need to install a copy of QGIS in your own workstation, you can access to the current installation files in our server at the address *Z:\GeoSpatialData_Resources\QGIS_Resources\Current_QGIS_Installer*
+On the understanding that the management of QGIS versions in corporate workstations is the responsibility of IT departments or geospatial data, to which reference can be made for any request for help, if, for a specific reason, you need to install a copy of QGIS in your own workstation, you can access to the current installation files in our server at the address *Z:\\GeoSpatialData_Resources\\QGIS_Resources\\Current_QGIS_Installer*
 
 ....
 
