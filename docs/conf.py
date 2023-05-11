@@ -77,23 +77,13 @@ latex_engine = 'xelatex'
 latex_paper_size = 'a4'
 
 # The font size ('10pt', '11pt' or '12pt').
-#latex_font_size = '10pt'
+latex_font_size = '10pt'
 
 
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
-latex_logo = '_static/images/PCA_logos/PCA_logo_round.png'
-
-
-
-
-
-
-
-
-
-
+latex_logo = '_static/images/PCA_logos/PCA_logo_round_1200x1200.png'
 
 
 # -- Options for EPUB output
