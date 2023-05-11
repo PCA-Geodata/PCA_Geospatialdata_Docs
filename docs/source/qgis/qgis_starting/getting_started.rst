@@ -50,3 +50,33 @@ Coordinate system
 PCA plugin repository
 
 Suggested basic interface configuration
+
+
+
+Here are some examples of GUI labels:
+
+- Buttons: :guilabel:`Save`, :guilabel:`Cancel`, :guilabel:`OK`
+- Dropdown menus: :guilabel:`File`, :guilabel:`Edit`, :guilabel:`View`
+- Checkboxes: :guilabel:`Enable auto-save`, :guilabel:`Remember me`
+- Radio buttons: :guilabel:`Male`, :guilabel:`Female`, :guilabel:`Other`
+- Input fields: :guilabel:`Enter your name`, :guilabel:`Search for a term`
+- Progress bars: :guilabel:`Loading...`, :guilabel:`Uploading...`
+
+You can use these GUI label directives in your documentation to indicate the names of buttons, menus, fields, and other user interface elements. This helps to make your documentation more user-friendly and easier to follow for readers who may not be familiar with the interface.
+
+Note that you can also customize the appearance of GUI labels using CSS, if desired.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
