@@ -1,7 +1,7 @@
 .. _QGIS-manual-index-reference:
 
 |qgis_logo|  
-===============
+
 QGIS Guides and Tutorials
 ===============
 
