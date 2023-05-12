@@ -34,7 +34,7 @@ Installing QGIS
 
 As just described, several versions of QGIS exist at the same time and, often, the version currently chosen as the one to be used in our company is no longer among the versions available for download on the official software site.
 
-On the understanding that the management of QGIS versions in corporate workstations is the responsibility of IT departments or geospatial data, to which reference can be made for any request for help, if, for a specific reason, you need to install a copy of QGIS in your own workstation, you can access to the current installation files in our server at the address *Z:\GeoSpatialData_Resources\QGIS_Resources\Current_QGIS_Installer*
+On the understanding that the management of QGIS versions in corporate workstations is the responsibility of IT departments or geospatial data, to which reference can be made for any request for help, if, for a specific reason, you need to install a copy of QGIS in your own workstation, you can access to the current installation files in our server at the address *Z:\\GeoSpatialData_Resources\\QGIS_Resources\\Current_QGIS_Installer*
 
 ....
 
@@ -50,3 +50,33 @@ Coordinate system
 PCA plugin repository
 
 Suggested basic interface configuration
+
+
+
+Here are some examples of GUI labels:
+
+- Buttons: :guilabel:`Save`, :guilabel:`Cancel`, :guilabel:`OK`
+- Dropdown menus: :guilabel:`File`, :guilabel:`Edit`, :guilabel:`View`
+- Checkboxes: :guilabel:`Enable auto-save`, :guilabel:`Remember me`
+- Radio buttons: :guilabel:`Male`, :guilabel:`Female`, :guilabel:`Other`
+- Input fields: :guilabel:`Enter your name`, :guilabel:`Search for a term`
+- Progress bars: :guilabel:`Loading...`, :guilabel:`Uploading...`
+
+You can use these GUI label directives in your documentation to indicate the names of buttons, menus, fields, and other user interface elements. This helps to make your documentation more user-friendly and easier to follow for readers who may not be familiar with the interface.
+
+Note that you can also customize the appearance of GUI labels using CSS, if desired.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
