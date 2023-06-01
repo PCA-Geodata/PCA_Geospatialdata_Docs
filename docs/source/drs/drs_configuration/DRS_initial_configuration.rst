@@ -113,11 +113,11 @@ Confirm the operation by pressing Add in both dialogues that will appear
 
 .. image:: images/DRS_initial_configuration_014.jpg
    :width: 300
-   :align: left
+
    
 .. image:: images/DRS_initial_configuration_015.jpg
    :width: 250
-   :align: right
+
 
 
 and the bookmark will be available on the home screen.
