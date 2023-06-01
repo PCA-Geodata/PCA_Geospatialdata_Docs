@@ -111,12 +111,10 @@ To create a bookmark, press the three dots icon on the top right corner and then
 
 Confirm the operation by pressing Add in both dialogues that will appear 
 
-.. image:: images/DRS_initial_configuration_014.jpg
-   :width: 300
+.. image:: images/DRS_initial_configuration_019.jpg
+   :width: 700
+   :align: center
 
-   
-.. image:: images/DRS_initial_configuration_015.jpg
-   :width: 250
 
 
 
