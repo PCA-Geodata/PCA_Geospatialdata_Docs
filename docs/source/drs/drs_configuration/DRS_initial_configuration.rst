@@ -111,11 +111,11 @@ To create a bookmark, press the three dots icon on the top right corner and then
 
 Confirm the operation by pressing Add in both dialogues that will appear 
 
-.. image:: images/DRS_initial_configuration_014.png
+.. image:: images/DRS_initial_configuration_014.jpg
    :width: 300
    :align: center
    
-.. image:: images/DRS_initial_configuration_015.png
+.. image:: images/DRS_initial_configuration_015.jpg
    :width: 250
    :align: center
 
@@ -187,7 +187,7 @@ Finally, if available, press Use the app in the bottom right to see the spreadsh
 
 NB. This last step will appear only the first time, so if you already choose it before, you can ignore this step.
 
-.. image:: images/DRS_initial_configuration_018.png
+.. image:: images/DRS_initial_configuration_018.jpg
    :width: 600
    :align: center
 
