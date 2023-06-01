@@ -95,15 +95,33 @@ On the new opened popup window, add the tablet Google account email (1) (it is p
    :width: 600
    :align: center
 
-12. On the tablet, open the received email and click on *Fill out Form* to open it on the browser.
+12. On the tablet, open Gmail to access the received email and click on Fill out Form to open it on the browser. 
 
 .. image:: images/DRS_initial_configuration_009.png
    :width: 600
    :align: center
    
+On the browser (usually Google Chrome), on the open form, is possible to send the page as a bookmark on the home screen, to have quick access to it.
+
+To create a bookmark, press the three dots icon on the top right corner and then, select Add to Home screen. 
+
+.. image:: images/DRS_initial_configuration_013.png
+   :width: 1300
+   :align: center
+
+Confirm the operation by pressing Add in both dialogues that will appear 
+
+.. image:: images/DRS_initial_configuration_014.png
+   :width: 300
+   :align: center
    
-   
-On the open form, send the page as a bookmark on the home screen to have quick access to it.
+.. image:: images/DRS_initial_configuration_015.png
+   :width: 250
+   :align: center
+
+
+and the bookmark will be available on the home screen.
+
 
 Sharing the Google Spreadsheet with the tablets
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -112,7 +130,7 @@ Sharing the Google Spreadsheet with the tablets
 
 In this case, therefore, instead of sending a link, we will share the table with the tablet Google account.
 
-Open the Spreadsheet and click on Share
+Open the Spreadsheet and click on *Share*
 
 .. image:: images/DRS_initial_configuration_010.png
    :width: 600
@@ -142,10 +160,40 @@ Click on **Editor** and select the desired option.
    
 Usually, all the tablets need at least Commenter permits to allow people to add a comment to request a correction or an amendment on the data they inserted through the form.
 Only one tablet, used by the PO/Supervisor, will have Editor permits to allow corrections.
-Configure the sharing according to the chosen strategy and press Send to share the spreadsheet.
+
+Configure the sharing according to the chosen strategy and press *Send* to share the spreadsheet.
 Repeat the operation for all the tablets in use on-site.
 
-14. On the tablet, open Google Drive to access the shared copy of the spreadsheet and create a bookmark on the home screen to generate quick access to it.   
+14. On the tablet, open Gmail to access the shared copy of the spreadsheet.
+The procedure to create the bookmark on the home screen is slightly different from the one used for the form.
+
+This is because we will normally access the spreadsheet using a dedicated app (Google Sheets) but in order to create the bookmark it is necessary to open manually the link via Chrome.
+
+On Gmail, access to the received email and press and hold Open to open the options dialogue. *Select Copy URL*
+
+.. image:: images/DRS_initial_configuration_016.png
+   :width: 1300
+   :align: center
+   
+Open Google Chrome and paste the address on the Browser address bar [1]. Then, press on the *three dots* icon [2] on the top right corner and then, select *Add to Home screen*. 
+
+.. image:: images/DRS_initial_configuration_017.png
+   :width: 1300
+   :align: center
+   
+This operation will create the bookmark on the home screen. 
+
+Finally, if available, press Use the app in the bottom right to see the spreadsheet using Google Sheets.
+
+NB. This last step will appear only the first time, so if you already choose it before, you can ignore this step.
+
+.. image:: images/DRS_initial_configuration_018.png
+   :width: 600
+   :align: center
+
+
+
+   
    
    
    
