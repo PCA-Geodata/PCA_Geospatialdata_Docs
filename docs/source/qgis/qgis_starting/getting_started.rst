@@ -58,9 +58,13 @@ On Windows, the QGIS profile folder is located at *C:\\Users\\your_username\\App
 Is also possible to access it directly by QGIS. 
 
 Open QGIS
+
 1. In the Menu Bar select :guilabel:`Settings`
+
 2. Choose :guilabel:`User Profiles`
+
 3. Click on :guilabel:`Open Active Profile Folder`
+
 
 .. image:: images/qgis_starting_001.png
    :width: 600
