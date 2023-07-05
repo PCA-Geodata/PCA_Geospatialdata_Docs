@@ -52,22 +52,48 @@ The procedure is quite simple and requires only copying a prepared folder into y
 On Windows, the QGIS profile folder is located at *C:\Users\your_username\AppData\Roaming\QGIS\QGIS3\profiles*
 Is also possible to access it directly by QGIS.
 Open QGIS
-1. In the Menu Bar select Settings
-2. Choose User Profiles
-3. Click on Open Active Profile Folder
+
+.. image:: images/qgis_starting_001.png
+   :width: 600
+   :align: center
+
+1. In the Menu Bar select :guilabel:'Settings'
+2. Choose :guilabel:'User Profiles'
+3. Click on :guilabel:'Open Active Profile Folder'
+
 This will open a File Explorer. In this new window, navigate one level down to Profiles [4]: this is where the custom QGIS Profile folder must be copied.
+
+.. image:: images/qgis_starting_002.png
+   :width: 600
+   :align: center
+
 Open another Windows File Explorer and navigate to Z:\GeoSpatialData_Resources\QGIS_Resources\QGIS Profile. Here, you will find the folder PCA_QGIS_profile.
-HOW TO ADD THE PCA CUSTOM PROFILE TO QGIS
+
+
 Copy and paste this folder into your QGIS Profiles folder.
+
+.. image:: images/qgis_starting_003.png
+   :width: 600
+   :align: center
+
 The new QGIS profile will be now available.
-Reopen QGIS. In the Menu Bar reselect Settings  → User Profiles
-Click on the PCA_QGIS_Profile
+Reopen QGIS. In the Menu Bar reselect :guilabel:'Settings' → :guilabel:'User Profiles'
+Click on the :guilabel:'PCA_QGIS_Profile'
+
+.. image:: images/qgis_starting_004.png
+   :width: 600
+   :align: center
+
 This will start a new QGIS session with the PCA customised profile settings and configurations.
+
 Close the previous QGIS session with the older profile and start using the new PCA Profile.
+
+
+
 QGIS keeps in memory which profile was in use in the last session and reuses it at any new launch. From now on, QGIS will start using the custom PCA profile.
 As a final step, after this procedure, it is a good habit to check for Plugin updates to ensure you are using the last version of our PCA QGIS tools.
-Since the QGIS configuration folders are saved within your own profile, this operation will need to be repeated every time you first access your profile on a new workstation.
-! Note
+
+.. attention:: Since the QGIS configuration folders are saved within your own profile, this operation will need to be repeated every time you first access your profile on a new workstation.
 
 
 
@@ -88,18 +114,6 @@ Suggested basic interface configuration
 
 
 
-Here are some examples of GUI labels:
-
-- Buttons: :guilabel:`Save`, :guilabel:`Cancel`, :guilabel:`OK`
-- Dropdown menus: :guilabel:`File`, :guilabel:`Edit`, :guilabel:`View`
-- Checkboxes: :guilabel:`Enable auto-save`, :guilabel:`Remember me`
-- Radio buttons: :guilabel:`Male`, :guilabel:`Female`, :guilabel:`Other`
-- Input fields: :guilabel:`Enter your name`, :guilabel:`Search for a term`
-- Progress bars: :guilabel:`Loading...`, :guilabel:`Uploading...`
-
-You can use these GUI label directives in your documentation to indicate the names of buttons, menus, fields, and other user interface elements. This helps to make your documentation more user-friendly and easier to follow for readers who may not be familiar with the interface.
-
-Note that you can also customize the appearance of GUI labels using CSS, if desired.
 
 
 
