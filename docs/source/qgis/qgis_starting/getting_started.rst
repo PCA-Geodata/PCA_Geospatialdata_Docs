@@ -48,7 +48,7 @@ Adding the PCA custom Profile
 QGIS offers great flexibility for customization. To ensure that all the company workstations have the same basic QGIS configuration and access to the PCA Plugin Repository, it is possible to add a custom QGIS profile to your workstation.
 The procedure is quite simple and requires only copying a prepared folder into your QGIS configuration folder.
 
-~ ~ ~ ~ ~
+
 On Windows, the QGIS profile folder is located at *C:\Users\your_username\AppData\Roaming\QGIS\QGIS3\profiles*
 Is also possible to access it directly by QGIS.
 Open QGIS
