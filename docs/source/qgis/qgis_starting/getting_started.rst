@@ -1,4 +1,4 @@
-.. Purpose: This chapter aims to describe how the user starts to use QGIS. It
+git.. Purpose: This chapter aims to describe how the user starts to use QGIS. It
 .. should be kept short with only few steps to get QGIS working with two layers.
 
 ***************
@@ -16,7 +16,7 @@ On any PCA workstation, you will find an updated version of QGIS (if you need to
 
 Whether you are using a pre-installed version of QGIS or installing a new version from scratch, it is very important to know how QGIS versions work. 
 
-QGIS is a very prolific software with frequent updates and new version releases (every 4 months). This allows the developers to provide the community with constant support, both introducing new features and fixing in short time bugs and issues. 
+QGIS is a very prolific software with frequent updates and new version releases (every 4 months). This allows the developers to provide the community with constant support, introducing new features and fixing bugs and issues in short time. 
 
 This means that in a single year, 5 different versions of QGIS are available for download, but only one of them will be labelled as LTR (Longe Term Release), which is the suggested version for business use and that guarantees a more extended continuity of features and tools along all the year, without big changes.
 
@@ -32,7 +32,7 @@ Currently, the version used is the :guilabel:`3.22.10-1` (that will be soon repl
 Installing QGIS
 ===============
 
-As just described, several versions of QGIS exist at the same time and, often, the version currently chosen as the one to be used in our company is no longer among the versions available for download on the official software site.
+As just described, several versions of QGIS exist simultaneously and, often, the one currently chosen as the one to be used in our company is no longer among the versions available for download on the official software site.
 
 On the understanding that the management of QGIS versions in corporate workstations is the responsibility of IT departments or geospatial data, to which reference can be made for any request for help, if, for a specific reason, you need to install a copy of QGIS in your own workstation, you can access to the current installation files in our server at the address :guilabel: `Z:\\GeoSpatialData_Resources\\QGIS_Resources\\Current_QGIS_Installer`
 
