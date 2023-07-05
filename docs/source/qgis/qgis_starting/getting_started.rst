@@ -45,29 +45,35 @@ Configuring QGIS
 Adding the PCA custom Profile
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-QGIS offers great flexibility for customization. To ensure that all the company workstations have the same basic QGIS configuration and access to the PCA Plugin Repository, it is possible to add a custom QGIS profile to your workstation.
+QGIS offers great flexibility for customization.
+
+To ensure that all the company workstations have the same basic QGIS configuration and access to the PCA Plugin Repository, it is possible to add a custom QGIS profile to your workstation.
+
 The procedure is quite simple and requires only copying a prepared folder into your QGIS configuration folder.
 
 
-On Windows, the QGIS profile folder is located at *C:\Users\your_username\AppData\Roaming\QGIS\QGIS3\profiles*
-Is also possible to access it directly by QGIS.
+On Windows, the QGIS profile folder is located at *C:\\Users\\your_username\\AppData\\Roaming\\QGIS\\QGIS3\\profiles*
+
+
+Is also possible to access it directly by QGIS. 
+
 Open QGIS
+1. In the Menu Bar select :guilabel:`Settings`
+2. Choose :guilabel:`User Profiles`
+3. Click on :guilabel:`Open Active Profile Folder`
 
 .. image:: images/qgis_starting_001.png
    :width: 600
    :align: center
 
-1. In the Menu Bar select :guilabel:'Settings'
-2. Choose :guilabel:'User Profiles'
-3. Click on :guilabel:'Open Active Profile Folder'
 
-This will open a File Explorer. In this new window, navigate one level down to Profiles [4]: this is where the custom QGIS Profile folder must be copied.
+This will open a File Explorer. In this new window, navigate one level down to :guilabel:`Profiles` [4]: this is where the custom QGIS Profile folder must be copied.
 
 .. image:: images/qgis_starting_002.png
    :width: 600
    :align: center
 
-Open another Windows File Explorer and navigate to Z:\GeoSpatialData_Resources\QGIS_Resources\QGIS Profile. Here, you will find the folder PCA_QGIS_profile.
+Open another Windows File Explorer and navigate to Z:\\GeoSpatialData_Resources\\QGIS_Resources\\QGIS Profile. Here, you will find the folder PCA_QGIS_profile.
 
 
 Copy and paste this folder into your QGIS Profiles folder.
@@ -77,7 +83,7 @@ Copy and paste this folder into your QGIS Profiles folder.
    :align: center
 
 The new QGIS profile will be now available.
-Reopen QGIS. In the Menu Bar reselect :guilabel:'Settings' → :guilabel:'User Profiles'
+Reopen QGIS. In the Menu Bar reselect :guilabel:`Settings` → :guilabel:`User Profiles`
 Click on the :guilabel:'PCA_QGIS_Profile'
 
 .. image:: images/qgis_starting_004.png
