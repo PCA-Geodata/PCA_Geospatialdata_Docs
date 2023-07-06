@@ -1,5 +1,5 @@
 git.. Purpose: This chapter aims to describe how the user starts to use QGIS. It
-.. should be kept short with only few steps to get QGIS working with two layers.
+.. should be kept short with only few steps to get QGIS installed and configured.
 
 ***************
 Getting Started
