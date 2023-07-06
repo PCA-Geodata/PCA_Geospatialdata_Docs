@@ -1,9 +1,11 @@
-git.. Purpose: This chapter aims to provide a few answers to very frequent asked questions. It 
-.. should aswer only very limited tasks or steps. Don't use for more complex workflow or tasks.  
+.. Purpose: This chapter aims to provide a few answers to very frequently asked questions. It 
+:hidden:
+.. should answer only very limited tasks or steps. Don't use it for more complex workflow or tasks.  
+:hidden:
 
 
 ***************
-Fraquent Asked Questions
+Frequently Asked Questions
 ***************
 
 .. only:: html
