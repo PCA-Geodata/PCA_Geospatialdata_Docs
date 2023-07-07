@@ -38,7 +38,7 @@ Installing QGIS
 
 As just described, several versions of QGIS exist simultaneously and, often, the one currently chosen as the one to be used in our company is no longer among the versions available for download on the official software site.
 
-On the understanding that the management of QGIS versions in corporate workstations is the responsibility of IT departments or geospatial data, to which reference can be made for any request for help, if, for a specific reason, you need to install a copy of QGIS in your own workstation, you can access to the current installation files in our server at the address :guilabel:`Z:\\GeoSpatialData_Resources\\QGIS_Resources\\Current_QGIS_Installer`
+On the understanding that the management of QGIS versions in corporate workstations is the responsibility of IT departments or geospatial data, to which reference can be made for any request for help, if, for a specific reason, you need to install a copy of QGIS in your own workstation, you can access to the current installation files in our server at the address :file:`Z:\\GeoSpatialData_Resources\\QGIS_Resources\\Current_QGIS_Installer`
 
 ....
 
@@ -56,7 +56,7 @@ To ensure that all the company workstations have the same basic QGIS configurati
 The procedure is quite simple and requires only copying a prepared folder into your QGIS configuration folder.
 
 
-On Windows, the QGIS profile folder is located at *C:\\Users\\your_username\\AppData\\Roaming\\QGIS\\QGIS3\\profiles*
+On Windows, the QGIS profile folder is located at :file:`C:\\Users\\your_username\\AppData\\Roaming\\QGIS\\QGIS3\\profiles`
 
 
 Is also possible to access it directly by QGIS. 
@@ -81,7 +81,9 @@ This will open a File Explorer. In this new window, navigate one level down to :
    :width: 600
    :align: center
 
-Open another Windows File Explorer and navigate to Z:\\GeoSpatialData_Resources\\QGIS_Resources\\QGIS Profile. Here, you will find the folder PCA_QGIS_profile.
+Open another Windows File Explorer and navigate to :file:`Z:\\GeoSpatialData_Resources\\QGIS_Resources\\QGIS Profile`. Here, you will find the folder PCA_QGIS_profile.
+
+Alternatively, you can download the folder from here <a href="resources/PCA_QGIS_profile.zip" download>PCA QGIS Profile</a>
 
 
 Copy and paste this folder into your QGIS Profiles folder.
