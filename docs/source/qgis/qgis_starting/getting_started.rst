@@ -84,7 +84,7 @@ This will open a File Explorer. In this new window, navigate one level down to :
 
 Open another Windows File Explorer and navigate to :file:`Z:\\GeoSpatialData_Resources\\QGIS_Resources\\QGIS Profile`. Here, you will find the folder PCA_QGIS_profile.
 
-Alternatively, you can download the folder from here `PCA QGIS Profile <resources/PCA_QGIS_profile.zip>`_
+Alternatively, you can download the folder from here `PCA QGIS Profile <https://github.com/PCA-Geodata/PCA_Geospatialdata_Docs/blob/main/docs/source/qgis/qgis_starting/resources/PCA_QGIS_profile.zip>`_
 
 
 
