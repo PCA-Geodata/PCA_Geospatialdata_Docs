@@ -46,7 +46,7 @@ QGIS
 Mergin
 --------
 .. toctree::
-   Mergin Guide/Manuals <source/mergin/index>
+   Mergin Maps Guide/Manuals <source/mergin/index>
    
    
 * :ref:`genindex`

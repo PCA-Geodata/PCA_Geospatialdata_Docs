@@ -1,4 +1,4 @@
-Mergin
+Mergin Maps
 =====
 
 .. _installation:
@@ -6,13 +6,17 @@ Mergin
 Installation
 ------------
 
-To use, first install it using :
+The Mergin mobile app is part of the DRS/GIS integrated system. 
+
+It allows us to visualise and interrogate on mobiles (phones and tablets) the GIS interactive site plans, where both survey data and DRS data are stored and integrated. 
+
+In simplest words, it can be considered a valid alternative to a Webmap system and, unlike this, it also allows us to edit site plans and DRS data on mobile devices.
 
 
-aaaaaaaaaaaaaaaaaaaa
 
-Creating recipes
+
+How to use it
 ----------------
 
-bbbbbbbbbbbbbbbbbbbb
+
 
