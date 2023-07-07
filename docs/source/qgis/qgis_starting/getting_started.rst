@@ -59,6 +59,7 @@ The procedure is quite simple and requires only copying a prepared folder into y
 On Windows, the QGIS profile folder is located at :file:`C:\\Users\\your_username\\AppData\\Roaming\\QGIS\\QGIS3\\profiles`
 
 
+
 Is also possible to access it directly by QGIS. 
 
 Open QGIS
@@ -83,7 +84,9 @@ This will open a File Explorer. In this new window, navigate one level down to :
 
 Open another Windows File Explorer and navigate to :file:`Z:\\GeoSpatialData_Resources\\QGIS_Resources\\QGIS Profile`. Here, you will find the folder PCA_QGIS_profile.
 
-Alternatively, you can download the folder from here <a href="resources/PCA_QGIS_profile.zip" download>PCA QGIS Profile</a>
+Alternatively, you can download the folder from here `PCA QGIS Profile <resources/PCA_QGIS_profile.zip>`_
+
+
 
 
 Copy and paste this folder into your QGIS Profiles folder.
@@ -94,7 +97,7 @@ Copy and paste this folder into your QGIS Profiles folder.
 
 The new QGIS profile will be now available.
 Reopen QGIS. In the Menu Bar reselect :guilabel:`Settings` → :guilabel:`User Profiles`
-Click on the :guilabel:'PCA_QGIS_Profile'
+Click on the :guilabel:`PCA_QGIS_Profile`
 
 .. image:: images/qgis_starting_004.png
    :width: 600
