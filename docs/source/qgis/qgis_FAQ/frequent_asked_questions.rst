@@ -15,7 +15,7 @@ Frequently Asked Questions
 
 This chapter provides answers to the most frequent help requests on simple tasks in QGIS.
 
-If you do not find the answer you're looking for, you can always request to treat the topic at geospatialdata@pre-construct.com
+If you can't find the answer you're looking for, you can always request to be covered at geospatialdata@pre-construct.com
 
 
 
