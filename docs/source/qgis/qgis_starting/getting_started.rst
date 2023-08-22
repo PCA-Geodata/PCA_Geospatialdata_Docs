@@ -29,7 +29,7 @@ For the functionality of each plugin to be guaranteed, it is important that all 
 
 For these reasons, it is essential that all the workstations are using the same QGIS LTR version and that each update is previously authorized by the geospatial data team.
 
-Currently, the version used is the :guilabel:`3.22.10-1` (that will be soon replaced by the 3.28.8) 
+Currently, the version used is the :guilabel:`3.28.8-1`.
 
 
 
