@@ -47,6 +47,11 @@ Mergin
 --------
 .. toctree::
    Mergin Maps Guide/Manuals <source/mergin/index>
+
+Photogrammetry
+--------
+.. toctree::
+   Photogrammetry Guide/Manuals <source/photogrammetry/index>
    
    
 * :ref:`genindex`
