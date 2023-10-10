@@ -7,7 +7,7 @@
 DRS Initial Configuration
 ***************
 
-This chapter provides a quick overview of how to configure the DRS fon Cloud and tablets for  a new project.
+This chapter provides a quick overview of how to configure the DRS on Cloud and tablets for  a new project.
 
 Configuring a new folder on the cloud DRS storage account
 ----------------------
