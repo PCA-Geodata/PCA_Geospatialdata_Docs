@@ -54,4 +54,3 @@ Photogrammetry
    Photogrammetry Guide/Manuals <source/photogrammetry/index>
    
    
-* :ref:`genindex`
