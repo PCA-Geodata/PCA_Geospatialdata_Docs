@@ -27,7 +27,6 @@ As can be seen in the figure below, all folders are named in a self-explanatory 
 
 **************
 
-
 01_PDFs
 ~~~~~~~~
 
@@ -39,7 +38,7 @@ There are already some predefined subfolders to facilitate organized storage, bu
    :width: 300
    :align: center
 
-**************
+
 02_Files_for_Graphics
 ~~~~~~~~~~~~~~~~~~~~~
 
@@ -55,7 +54,6 @@ There are already some predefined subfolders to facilitate organized storage, bu
    :width: 300
    :align: center
 
-**************
 03_GIS_Projects
 ~~~~~~~~~~~~~~~~
 
@@ -68,8 +66,6 @@ For more specifications on this folder, you can refer to the dedicated guide.
 .. image:: images/project_data_folder_structure_img_004.png
    :width: 300
    :align: center
-
-**************
 
 04_Survey
 ~~~~~~~~~~
@@ -85,7 +81,6 @@ Most of these files will also be available in the cloud so you can access them d
 .. image:: images/project_data_folder_structure_img_005.png
    :width: 300
    :align: center
-**************
 
 05_Photogrammetry
 ~~~~~~~~~~~~~~~~~
@@ -103,13 +98,13 @@ Here is also located a dedicated QGIS project used only for the conversion of or
    :width: 300
    :align: center
    
-**************
+
 06_Graphics (GRAPHICS USE ONLY)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 06_Graphics (GRAPHICS USE ONLY), as his name suggests, is a folder for internal Graphics Dept use only. It contains all the processing data files used for the final figures output.
 
-**************
+
 07.Other_Software
 ~~~~~~~~~~~~~~~~~~
 
