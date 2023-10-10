@@ -1,4 +1,8 @@
 
+.image-spacing {
+    margin-bottom: 20px;  /* Adjust as needed */
+}
+
 .. _`label.getstarted`:
 
 ***************
@@ -24,6 +28,7 @@ As can be seen in the figure below, all folders are named in a self-explanatory 
 .. image:: images/project_data_folder_structure_img_001.png
    :width: 750
    :align: center
+   :class: image-spacing
 
 **************
 
@@ -37,7 +42,13 @@ There are already some predefined subfolders to facilitate organized storage, bu
 .. image:: images/project_data_folder_structure_img_002.png
    :width: 300
    :align: center
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 02_Files_for_Graphics
 ~~~~~~~~~~~~~~~~~~~~~
