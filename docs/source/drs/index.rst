@@ -24,9 +24,10 @@ In the current DRS configuration, all the registers are still in paper format. T
     :numbered: 4
 
     drs_configuration/DRS_initial_configuration
+    project_data_structure/project_data_folder_structure
 	
     
 
 .. |DRS_logo| image:: ../../_static/images/drs_common/logo_PCA_DRS_square_lr.jpg
-   :width: 30em
+   :width: 40em
    
