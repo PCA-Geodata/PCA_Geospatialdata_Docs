@@ -42,13 +42,8 @@ There are already some predefined subfolders to facilitate organized storage, bu
 .. image:: images/project_data_folder_structure_img_002.png
    :width: 300
    :align: center
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+   :class: image-spacing
+
 
 02_Files_for_Graphics
 ~~~~~~~~~~~~~~~~~~~~~
@@ -64,6 +59,7 @@ There are already some predefined subfolders to facilitate organized storage, bu
 .. image:: images/project_data_folder_structure_img_003.png
    :width: 300
    :align: center
+   :class: image-spacing
 
 03_GIS_Projects
 ~~~~~~~~~~~~~~~~
@@ -77,6 +73,7 @@ For more specifications on this folder, you can refer to the dedicated guide.
 .. image:: images/project_data_folder_structure_img_004.png
    :width: 300
    :align: center
+   :class: image-spacing
 
 04_Survey
 ~~~~~~~~~~
@@ -92,6 +89,7 @@ Most of these files will also be available in the cloud so you can access them d
 .. image:: images/project_data_folder_structure_img_005.png
    :width: 300
    :align: center
+   :class: image-spacing
 
 05_Photogrammetry
 ~~~~~~~~~~~~~~~~~
@@ -108,6 +106,7 @@ Here is also located a dedicated QGIS project used only for the conversion of or
 .. image:: images/project_data_folder_structure_img_006.png
    :width: 300
    :align: center
+   :class: image-spacing
    
 
 06_Graphics (GRAPHICS USE ONLY)
