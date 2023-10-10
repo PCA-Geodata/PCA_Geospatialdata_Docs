@@ -29,7 +29,7 @@ As can be seen in the figure below, all folders are named in a self-explanatory 
 
 
 01_PDFs
-~~~~~~~~~
+~~~~~~~~
 
 01_PDFs contain all the produced PDFs (site plans processed survey, WSI figures, orthophotos outputs, etc....).
 
@@ -57,13 +57,14 @@ There are already some predefined subfolders to facilitate organized storage, bu
 
 **************
 03_GIS_Projects
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~
 
 03_GIS_Projects is the container for all the GIS projects, organized in subfolders. Some of the projects are for internal Graphics use only (*01_QGIS_Fig_1_Template* and *02_QGIS_Project_Setout*).
 
 The subfolder 03_QGIS_Site_Plan contains the active site plan project and can be used by graphics, supervisors and managers.
 
 For more specifications on this folder, you can refer to the dedicated guide.
+
 .. image:: images/project_data_folder_structure_img_004.png
    :width: 300
    :align: center
