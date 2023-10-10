@@ -1,8 +1,3 @@
-
-.image-spacing {
-    margin-bottom: 20px;  /* Adjust as needed */
-}
-
 .. _`label.getstarted`:
 
 ***************
