@@ -5,194 +5,85 @@
 Project Data Folder Structure
 ***************
 
-This chapter provides a quick overview of how to configure the DRS fon Cloud and tablets for  a new project.
+This chapter provides a quick overview of the new Project Data folder structure.
 
-Configuring a new folder on the cloud DRS storage account
+Introduction
 ----------------------
 
-The current DRS data is stored in a main Google Drive account. 
+The introduction of the new PCA geospatial data recording and management system required a different approach to data storage.
 
-.. note:: 
-   Contact geospatialdata@pre-construct.com for the credentials.
-   
-1. Open Google Drive DRS main account.
+A good data organization in folders and subfolders, together with consistency in the data storage location (and file names!) is an indispensable requirement to ensure the functioning of an integrated system.
 
-The internal folder structure of Google Drive is the same as that used on the local server project folder, with a subdivision in counties, towns and sites.
+Moreover, compliance with the rules of a shared data storage system drastically reduces the time of data management (finding a file correctly named in the correct folder saves a lot of time) and allows the use of automated processes for data processing.
 
-2. Create a new Project folder for your project. If a subdivision in areas is planned, consider using the same subdivision in the folder structure.
+The new Project data folder structure is a container for all the geospatial data generated during all the phases of a project, from the project set out to the final graphical outputs.
 
-3. Right-click on the DRS Form template located in the home and select **Make a copy**
 
-.. image:: images/DRS_initial_configuration_001.png
+As can be seen in the figure below, all folders are named in a self-explanatory way and pre-numbered to keep the order of the structure unaltered.
+
+.. image:: images/project_data_folder_structure_img_001.png
+   :width: 750
+   :align: center
+
+
+.. image:: images/project_data_folder_structure_img_002.png
+   :width: 500
+   :align: center
+
+**01_PDFs** contain all the produced PDFs (site plans processed survey, WSI figures, orthophotos outputs, etc....).
+There are already some predefined subfolders to facilitate organized storage, but, if necessary, you can create additional ad-hoc subfolders.
+
+**************
+
+.. image:: images/project_data_folder_structure_img_003.png
    :width: 600
    :align: center
 
-4. Move your copy into the project folder. Right-click on the form and select **Move to**
+**02_Files_for_Graphics** is a container that each person involved (Manager, PO) can use to store the data they want to share with Graphics (for example, PDFs, images, shapefiles or CAD files for setouts or WSIs). Graphics will be responsible for moving the various files to the most suitable place depending on their use (e.g., GIS project folders)
+There are already some predefined subfolders to facilitate organized storage, but, if necessary, you can create additional ad-hoc subfolders.
 
-.. image:: images/DRS_initial_configuration_002.png
+**************
+
+.. image:: images/project_data_folder_structure_img_004.png
    :width: 600
    :align: center
 
-5. Go to your project folder and rename your copy of the Form template with your Site Code and Site Name (e.g., *LNDBKP22_London_Buckingham_Palace_PCA_DRS_Trench_sheet* or *LNDBKP22_London_Buckingham_Palace_PCA_DRS_Context _sheet*)
+**03_GIS_Projects** is the container for all the GIS projects, organized in subfolders. Some of the projects are for internal Graphics use only (01_QGIS_Fig_1_Template and 02_QGIS_Project_Setout).
+The subfolder 03_QGIS_Site_Plan contains the active site plan project and can be used by graphics, supervisors and managers. For more specifications on this folder, you can refer to the dedicated guide.
 
-Configuring the Google Form and the Google Spreadsheet
-----------------------
 
-6. Open the form. When the Form is being opened for the first time, a message will appear asking to restore the *Missing File Upload folders*.
+**************
 
-  Those are the folders where the images used as attachments (e.g., sketches or feature overview photos) will be stored.
-
-7. Press **Restore** to allow Google to automatically create the required subfolder structure.
-   
-.. image:: images/DRS_initial_configuration_003.png
+.. image:: images/project_data_folder_structure_img_005.png
    :width: 600
    :align: center
 
+**04_Survey** contains all survey data, both incoming and outgoing.
+Download (from GNSS) contains dated folders for processing, where all survey data (from raw data exported from GNSS/GPS to processed files) are organized into daily dated subfolders (for example, XFRE22_220821). It is primarily maintained by Graphics but is accessible to anyone involved to verify the raw survey data if necessary.
+
+Upload (from GNSS) is the container for all the data prepared in the office by Graphics to be imported into GNSS.GPS.
+Most of these files will also be available in the cloud so you can access them directly from your GNSS tablet.
 
 
-8. In the top part of the Form, add your SITECODE and SITENAME.
+**************
 
-.. image:: images/DRS_initial_configuration_004.png
-   :width: 600
-   :align: center
-
-**The form is now ready**. The next step is to create the associated Google spreadsheet that will collect all the data generated by the form.
-
-9. On the form, select the tab Responses and click on the Spreadsheet icon
-
-.. image:: images/DRS_initial_configuration_005.png
-   :width: 600
-   :align: center
-
-10. In the new popup window check that the first option is selected (*Create a new spreadsheet*) and click on **Create**.
-
-.. image:: images/DRS_initial_configuration_006.png
-   :width: 600
-   :align: center
-
-
-Our files are now ready on the main Google Drive account. They need to be sent or shared to be used on site on the tablets.
-
-Configuring the tablets
-----------------------
-
-Sending the Google Form to the tablets
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-11. As we want people on site to be able to fill out the form, but not modify it, we just send an email an invitation to fill out the form.
-On the open form, click on **Share**.
-
-
-.. image:: images/DRS_initial_configuration_007.png
-   :width: 600
-   :align: center
-
-On the new opened popup window, add the tablet Google account email (1) (it is possible to add more than one email for time). Check that the option *Include form in email* (2) is unchecked and then, press **Send** (3)
-
-.. image:: images/DRS_initial_configuration_008.png
-   :width: 600
-   :align: center
-
-12. On the tablet, open Gmail to access the received email and click on Fill out Form to open it on the browser. 
-
-.. image:: images/DRS_initial_configuration_009.png
+.. image:: images/project_data_folder_structure_img_006.png
    :width: 600
    :align: center
    
-On the browser (usually Google Chrome), on the open form, is possible to send the page as a bookmark on the home screen, to have quick access to it.
+**05_Photogrammetry** is the container for all the photogrammetric data, from the raw photos to the final outputs (e.g., orthophotos, Digital Elevation Models (DEM), 3D models). The parent folder contains the Agisoft Metashape project file.
+01_Dated_Photos_Folders contains all the raw photos, organised in subfolders (Features, Finds, UAV).
+02_GCP contains the ground control points .csv files.
+03_Outputs is where all the photogrammetry outputs are saved. It is organised in subfolders for easier file management.
+Here is also located a dedicated QGIS project used only for the conversion of orthophotos and DEMs to PDF.
 
-To create a bookmark, press the three dots icon on the top right corner and then, select Add to Home screen. 
+**************
 
-.. image:: images/DRS_initial_configuration_013.png
-   :width: 1300
-   :align: center
+06_Graphics (GRAPHICS USE ONLY), as his name suggests, is a folder for internal Graphics Dept use only. It contains all the processing data files used for the final figures output.
 
-Confirm the operation by pressing Add in both dialogues that will appear 
+**************
 
-.. image:: images/DRS_initial_configuration_019.png
-   :width: 700
-   :align: center
-
-
-and the bookmark will be available on the home screen.
-
-
-Sharing the Google Spreadsheet with the tablets
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-13. Unlike before, we want people to be able to access the table for comments and changes.
-
-In this case, therefore, instead of sending a link, we will share the table with the tablet Google account.
-
-Open the Spreadsheet and click on *Share*
-
-.. image:: images/DRS_initial_configuration_010.png
-   :width: 600
-   :align: center
-
-
-In the new popup window click on **Add people and groups** and add the tablet Google Account.
-
-.. image:: images/DRS_initial_configuration_011.png
-   :width: 600
-   :align: center
-   
-   
-
-A new window will open. Here you can define the level of permit that you want to give to the tablet’s account. 
-Click on **Editor** and select the desired option.
-
-.. image:: images/DRS_initial_configuration_012.png
-   :width: 600
-   :align: center
-
-   - A Viewer can only see the spreadsheet.
-   
-   - A Commenter can add comments but can’t edit the spreadsheet.
-   
-   - An Editor can see the comments and edit the spreadsheet.
-   
-Usually, all the tablets need at least Commenter permits to allow people to add a comment to request a correction or an amendment on the data they inserted through the form.
-Only one tablet, used by the PO/Supervisor, will have Editor permits to allow corrections.
-
-Configure the sharing according to the chosen strategy and press *Send* to share the spreadsheet.
-Repeat the operation for all the tablets in use on-site.
-
-14. On the tablet, open Gmail to access the shared copy of the spreadsheet.
-The procedure to create the bookmark on the home screen is slightly different from the one used for the form.
-
-This is because we will normally access the spreadsheet using a dedicated app (Google Sheets) but in order to create the bookmark it is necessary to open manually the link via Chrome.
-
-On Gmail, access to the received email and press and hold Open to open the options dialogue. *Select Copy URL*
-
-.. image:: images/DRS_initial_configuration_016.png
-   :width: 1300
-   :align: center
-   
-Open Google Chrome and paste the address on the Browser address bar [1]. Then, press on the *three dots* icon [2] on the top right corner and then, select *Add to Home screen*. 
-
-.. image:: images/DRS_initial_configuration_017.png
-   :width: 1300
-   :align: center
-   
-This operation will create the bookmark on the home screen. 
-
-Finally, if available, press Use the app in the bottom right to see the spreadsheet using Google Sheets.
-
-NB. This last step will appear only the first time, so if you already choose it before, you can ignore this step.
-
-.. image:: images/DRS_initial_configuration_018.jpg
-   :width: 600
-   :align: center
-
-
-
-   
-   
-   
-   
-   
-   
+07.Other_Software is a generic container for all the files generated by unusual software. Create a subfolder with the software name to keep the folder organised.
    
    
    
