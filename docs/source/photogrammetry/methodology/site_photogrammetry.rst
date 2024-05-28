@@ -27,5 +27,5 @@ Preparing for photography
 
 
 
-.. |Photogrammetry_sheet| image:: ../../_static/images/photogrammetry_common/photogrammetry_sheet_complete.png
+.. |Photogrammetry_sheet| image:: ../../../_static/images/photogrammetry_common/photogrammetry_sheet_complete.png
    :width: 40em
