@@ -3,9 +3,6 @@ Photogrammetry Methodology and Processing
 
 Photogrammetry is a process that can produce highly detailed point clouds, images and 3D models of objects or environments. 
 
-.. note::
-Work in progress
-
 .. toctree::
     :maxdepth: 2
     :numbered: 4
