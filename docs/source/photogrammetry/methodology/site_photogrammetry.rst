@@ -15,5 +15,17 @@ Preparing for photography
 	* Targets (agisoft or otherwise)
 	* Small nails
 	
-2. When the feature/object is cleaned and exposed to a suitable standard. Place your targets in a box shape around the feature you are taking photographs of.
-	Each target should be placed no more than a metre from the previous target and be in-line. Each traget should be nailed into the ground at the corners, avoiding any damage to the image of the target itself.
+2. Clean and expose the object/feature you're photographing.
+	This will ensure a more accuracte depiciton
+	
+3. Place your targets in a box shape around the feature you are taking photographing.
+	Each target should be placed no more than a metre from the previous target and be in-line. Nail the targets into the ground at the corners, avoiding any damage to the image of the target itself.
+	
+4. Complete your photogrammetry sheet. 
+	|Photogrammetry_sheet|
+
+
+
+
+.. |Photogrammetry_sheet| image:: ../../_static/images/photogrammetry_common/photogrammetry_sheet_complete.png
+   :width: 40em
