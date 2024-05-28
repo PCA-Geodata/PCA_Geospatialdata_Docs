@@ -34,9 +34,7 @@ Taking photos
 
 5. Start by taking a photo of your photogrammetry sheet.
 
-
 6. Starting from one end of your feature, at a standing height, rotate around your feature taking a photo every shoulder step. 
-
 	Try to make sure the feature your photographing is central of each photo.
 	
 7. Repeat step 6 but taking photos from a crouched height.
@@ -44,4 +42,4 @@ Taking photos
 
 .. |Photogrammetry_sheet| image:: ../../../_static/images/photogrammetry_common/photogrammetry_sheet_complete.png
    :width: 30em
-   :height: 70em
+   :height: 50em
