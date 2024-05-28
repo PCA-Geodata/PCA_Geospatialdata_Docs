@@ -33,6 +33,7 @@ Taking photos
 --------------
 
 5. Start by taking a photo of your photogrammetry sheet.
+	Make sure information is correctly filled out.
 
 6. Starting from one end of your feature, at a standing height, rotate around your feature taking a photo every shoulder step. 
 	Try to make sure the feature your photographing is central of each photo.
