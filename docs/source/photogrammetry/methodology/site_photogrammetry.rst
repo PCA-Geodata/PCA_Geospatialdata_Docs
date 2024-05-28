@@ -41,5 +41,5 @@ Taking photos
 
 
 .. |Photogrammetry_sheet| image:: ../../../_static/images/photogrammetry_common/photogrammetry_sheet_complete.png
-   :width: 40em
-   :height: 80em
+   :width: 30em
+   :height: 60em
