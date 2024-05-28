@@ -10,4 +10,4 @@ Photogrammetry is a process that can produce highly detailed point clouds, image
     :numbered: 4
 
     processing/agisoft_metashape_processing
-    pmethodology/site_photography
+    methodology/site_photography
