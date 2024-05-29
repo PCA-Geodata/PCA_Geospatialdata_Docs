@@ -102,7 +102,7 @@ Photo Upload
    :height: 50em
 
 .. |Photogrammetry_target| image:: ../../../_static/images/photogrammetry_common/photogrammetry_target.png
-	:width: 25em
+	:width: 15em
 	
 .. |Photogrammetry_file_upload| image:: ../../../_static/images/photogrammetry_common/photo_upload.png
 	:width: 70em	
