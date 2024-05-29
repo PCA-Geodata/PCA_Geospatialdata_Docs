@@ -18,7 +18,7 @@ QGIS Guides and Tutorials
     qgis_starting/getting_started
     qgis_starting/basic_configuration
     qgis_FAQ/frequent_asked_questions
-    qgis_plugins/
+    qgis_plugins/qgis_plugins
     qgis_workflow/
     qgis_printing/
     qgis_digitising/
