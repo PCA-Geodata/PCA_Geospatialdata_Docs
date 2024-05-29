@@ -27,6 +27,9 @@ Updating plugins
    :width: 800
    :align: center
 
+PCA Custom Plugins
+==================
+
 
 Add Save All Edits Shortcut
 ---------------------------
@@ -35,6 +38,7 @@ Add Save All Edits Shortcut
    :align: left
 
 This plugin is a simple save shortcut. Instead of clicking on all your individual layers in the layers tab and clicking save, this triggers all the layers to save.
+
 
 Geopackage to SHP Exporter
 --------------------------
