@@ -27,15 +27,11 @@ Updating plugins
    :width: 800
    :align: center
 
-PCA Custom Plugins
-==================
-
-
 Add Save All Edits Shortcut
 ---------------------------
 .. image:: images/save_all_shortcut/save_shortcut.png
    :width: 50
-   :align: left
+   :align: right
 
 This plugin is a simple save shortcut. Instead of clicking on all your individual layers in the layers tab and clicking save, this triggers all the layers to save.
 
