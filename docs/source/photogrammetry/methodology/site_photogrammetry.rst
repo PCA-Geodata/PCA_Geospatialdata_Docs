@@ -1,4 +1,4 @@
-# Site Photogrammetry
+Site Photogrammetry
 ===================
 
 .. note:: 
@@ -26,6 +26,7 @@ Targets
    Avoid arranging your targets in a irregular shape around the subject - they should be arranged in-line with one another.
    
 4. If using agisoft circular coded targets, avoid nailing them through the image. Nail them into the ground at the corners.
+	|Photogrammetry_target|
 
 .. note::
 	Dont reuse agisoft targets. Each one has a unique pattern and number to be identifiable from the others.
@@ -75,6 +76,7 @@ Each step will provide different information of the subject to help create a mor
 
 12. Once satisfied, take a zoomed-in and zoomed-out photo of each target. 
 	
+	
 13. Conclude by taking a final photo of your photogrammetry sheet.
 	This will let the processor know where your photos start and finish. 
 	
@@ -91,9 +93,16 @@ Photo Upload
 -------------
 
 16. Upload the photos to the server as soon as possible for processing to begin.
-	Use the Project folder\Photogrammerty\Dated_photo_folders\ and create a folder with the title of the job e.g Dated_Photo_Folders\Features\220518\Room3 postex 220518
+	Use the Project folder/Photogrammerty/Dated_photo_folders/ and create a folder with the title of the job e.g Dated_Photo_Folders/Features/220518/Room3 postex 220518
 
+	|Photogrammetry_file_upload|
 
 .. |Photogrammetry_sheet| image:: ../../../_static/images/photogrammetry_common/photogrammetry_sheet_complete.png
    :width: 35em
    :height: 50em
+
+.. |Photogrammetry_target| image:: ../../../_static/images/photogrammetry_common/photogrammetry_target.png
+	:width: 25em
+	
+.. |Photogrammetry_file_upload| image:: ../../../_static/images/photogrammetry_common/photo_upload.png
+	:width: 70em	
