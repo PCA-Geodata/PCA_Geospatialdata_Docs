@@ -1,8 +1,7 @@
 Site Photogrammetry
 ===================
 
-.. note:: 
-    This chapter focuses on the process of recording photogrammetry on-site.
+This chapter focuses on conducting photogrammetry on site and the steps taken in order to achieve the best final output.
     
 
 Preparation
@@ -93,7 +92,7 @@ Photo Upload
 -------------
 
 16. Upload the photos to the server as soon as possible for processing to begin.
-	Use the Project folder/Photogrammerty/Dated_photo_folders/ and create a folder with the title of the job e.g Dated_Photo_Folders/Features/220518/Room3 postex 220518
+	Use the Project folder/Photogrammerty/Dated_photo_folders/ and create a folder with the title of the job e.g Dated_Photo_Folders/Features/230901/Cremation_399_230901
 
 	|Photogrammetry_file_upload|
 
