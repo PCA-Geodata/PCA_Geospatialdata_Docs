@@ -1,0 +1,6 @@
+QGIS Plugins
+=============
+
+
+Updating plugins
+----------------
