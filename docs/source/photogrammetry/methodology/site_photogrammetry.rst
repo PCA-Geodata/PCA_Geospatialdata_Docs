@@ -51,11 +51,9 @@ Taking photos
     Steps 8 and 9 together should create a crosshatch pattern, forming a mosaic of plan photos of the subject.
 
 10. Now take close-up photos of the subject. Repeat steps 8 and 9 with close-up images.
-    This will help produce higher detail images and 3D models.
-    
-	
-11. Once satisfied, photograph the targets surrounding your subject. Take one zoomed-out and one zoomed-in photo of each target, resulting in two photos per target.
+	This will help produce higher detail images and 3D models.
 
+11. Once satisfied, photograph the targets surrounding your subject. Take one zoomed-out and one zoomed-in photo of each target, resulting in two photos per target.
 
 12. Conclude by taking a final photo of your photogrammetry sheet.
 
