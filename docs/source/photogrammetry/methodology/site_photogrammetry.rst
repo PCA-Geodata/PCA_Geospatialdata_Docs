@@ -5,7 +5,7 @@
     This chapter focuses on the process of recording photogrammetry on-site.
     
 
- Preparing for Photography
+Preparing for Photography
 -------------------------
 
 1. Before taking photos, ensure you have the following equipment ready: 
@@ -29,8 +29,8 @@
 |Photogrammetry_sheet|
 
 
- Taking Photos
---------------
+Taking photos
+-------------
 
 5. Begin by photographing your photogrammetry sheet.
     Ensure all information is correctly filled out.
@@ -53,7 +53,9 @@
 10. Now take close-up photos of the subject. Repeat steps 8 and 9 with close-up images.
     This will help produce higher detail images and 3D models.
     
+	
 11. Once satisfied, photograph the targets surrounding your subject. Take one zoomed-out and one zoomed-in photo of each target, resulting in two photos per target.
+
 
 12. Conclude by taking a final photo of your photogrammetry sheet.
 
