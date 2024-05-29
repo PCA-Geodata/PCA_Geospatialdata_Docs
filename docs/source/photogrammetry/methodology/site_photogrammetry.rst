@@ -69,15 +69,16 @@ Each step will provide different information of the subject to help create a mor
 10. Then, repeat step 9 in the other direction (moving left to right) until the subject is covered.
     Steps 9 and 10 together should create a crosshatch pattern, forming a mosaic of plan photos of the subject.
 
+
 11. Now, to add details, take close up photos in areas that may require more coverage or perhaps the previous steps didnt capture.
 	Try not to use the zoom and instead move closer to the area.
 
 12. Once satisfied, take a zoomed-in and zoomed-out photo of each target. 
-
+	
 13. Conclude by taking a final photo of your photogrammetry sheet.
 	This will let the processor know where your photos start and finish. 
-
-
+	
+	
 Record the targets
 -------------------
 
