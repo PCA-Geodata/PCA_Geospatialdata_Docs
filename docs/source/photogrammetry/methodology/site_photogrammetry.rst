@@ -7,12 +7,12 @@ This chapter focuses on conducting photogrammetry on site and the steps taken in
 Preparation
 ------------
 
-1. Before taking photos, ensure you have the following equipment ready: 
-* Photogrammetry sheet
-* Suitable camera
-* GPS device
-* Targets (Agisoft or others)
-* Small nails
+1. Before taking photos, ensure you have the following equipment ready:
+	* Photogrammetry sheet
+	* GPS
+	* Suitable camera
+	* Targets (Agisoft or otherwise)
+	* Nails (preferably small)
 
 2. Make sure the area around your subject is clean and free of obstructions.
 This will ensure a more accurate depiction.
