@@ -8,11 +8,13 @@ Preparation
 ------------
 
 1. Before taking photos, ensure you have the following equipment ready: 
+
    * Photogrammetry sheet
    * Suitable camera
    * GPS device
    * Targets (Agisoft or others)
    * Small nails
+
 
 2. Make sure the area around your subject is clean and free of obstructions to ensure a more accurate depiction.
 
@@ -45,7 +47,9 @@ The process of photogrammetry is divided into separate steps. Each step provides
 
 7. At standing height, rotate around your subject 360 degrees, taking a photo at each step. Ensure the subject is at the central point of each photo and that each photo overlaps about 50% with the previous one.
 
+
 8. Repeat step 7 but in a crouched position, doing another 360 degrees around your subject. At this point, you will have completed two circles around your subject at different elevations.
+
 
 9. Next, take plane shots of the subject in a grid/transect pattern. Try to move in only one direction, e.g., feet to head, until your subject has enough coverage.
 
@@ -54,9 +58,12 @@ The process of photogrammetry is divided into separate steps. Each step provides
 
 10. Then, repeat step 9 in the other direction (moving left to right) until the subject is covered. Steps 9 and 10 together should create a crosshatch pattern, forming a mosaic of plan photos of the subject.
 
+
 11. To add details, take close-up photos of areas that may require more coverage or that the previous steps didn't capture. Try not to use the zoom; instead, move closer to the area.
 
+
 12. Once satisfied, take a zoomed-in and zoomed-out photo of each target.
+
 
 13. Conclude by taking a final photo of your photogrammetry sheet. This will let the processor know where your photos start and finish.
 
@@ -64,6 +71,7 @@ Record the Targets
 -------------------
 
 14. Once satisfied with the photo results, survey the targets as soon as possible and write their associated numbers into the attribute box. Ensure they are not moved before being surveyed.
+
 
 15. Export the job with the targets with a name to identify there are targets in the job, e.g., 01-01-2024-targets.
 
