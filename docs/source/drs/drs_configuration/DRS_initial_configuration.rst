@@ -171,30 +171,44 @@ Configure the sharing according to the chosen strategy and press **Send** to sha
 
 Repeat the operation for all tablets in use on site.
 
-14. On the tablet, open Gmail to access the shared Spreadsheet.
+14. On the tablet, open Gmail and locate the email containing the shared Spreadsheet.
 
-The procedure to create the bookmark on the home screen is slightly different from the one used for the Form.
+The procedure for creating the Spreadsheet shortcut is slightly different from the one used for the Form. This is because the Spreadsheet is normally accessed through the Google Sheets app.
 
-This is because the Spreadsheet will normally be accessed using the dedicated Google Sheets app. However, to create the bookmark, it is necessary to open the link manually in Chrome.
-
-On Gmail, open the received email, then press and hold **Open** to open the options dialogue. Select **Copy URL**.
+Open the email and press **Open**.
 
 .. image:: images/DRS_initial_configuration_016.png
    :width: 1300
    :align: center
 
-Open Google Chrome and paste the address into the browser address bar (1). Then press the three dots icon (2) in the top-right corner and select **Add to Home screen**.
+This will open the Spreadsheet in Google Sheets. Press the three dots icon in the top-right corner.
 
 .. image:: images/DRS_initial_configuration_017.png
    :width: 1300
    :align: center
 
-This operation will create the bookmark on the home screen.
+From the menu, select **Share and export**.
 
-Finally, if available, press **Use the app** in the bottom-right corner to view the Spreadsheet using Google Sheets.
+.. image:: images/DRS_initial_configuration_017b.png
+   :width: 1300
+   :align: center
+
+Then select **Add to Home screen**.
+
+.. image:: images/DRS_initial_configuration_017c.png
+   :width: 1300
+   :align: center
+
+Press **Add** to confirm.
+
+.. image:: images/DRS_initial_configuration_017d.png
+   :width: 1300
+   :align: center
+
+This will create a shortcut to the Spreadsheet on the tablet home screen.
 
 .. note::
-   This last step will appear only the first time. If you have already selected this option before, you can ignore this step.
+   If the Spreadsheet opens in Chrome rather than in the Google Sheets app, you can switch to the app by selecting **Use the app** in the bottom-right corner. This option normally appears only the first time the Spreadsheet is opened. If you have already selected it previously, this step can be ignored.
 
 .. image:: images/DRS_initial_configuration_018.jpg
    :width: 600
