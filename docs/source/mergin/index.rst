@@ -1,20 +1,14 @@
-PCA Mergin Maps User Guide
-===========================
+PCA Mergin Maps (Mobile) Guide
+================================
 
-This manual explains how to use **Mergin Maps on Android devices** for PCA fieldwork.
+This documentation contains short, task-based guides for using Mergin Maps on
+Android devices during archaeological fieldwork. Each guide explains one task
+using simple instructions supported by screenshots.
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents
+   :maxdepth: 1
 
-   introduction
-   getting_started/index
-   projects/index
-   navigation/index
-   editing/index
-   forms/index
-   gps/index
-   synchronisation/index
-   troubleshooting/index
-   best_practice/index
-   glossary
+   projects
+   map_themes
+   editing
+   remove_redownload
