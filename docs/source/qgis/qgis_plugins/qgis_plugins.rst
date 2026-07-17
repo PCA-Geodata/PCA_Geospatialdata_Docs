@@ -1,28 +1,32 @@
 QGIS plugins
 ============
 
-PCA maintains a growing collection of QGIS plugins designed for archaeological
-survey, data quality, field recording, post-excavation and day-to-day GIS
-production. This page provides a concise overview of the currently available
-tools and their compatibility.
+PCA maintains a growing collection of QGIS plugins designed to support
+archaeological survey, field recording, data quality, post-excavation and
+day-to-day GIS production.
+
+The plugins are developed around PCA workflows and are intended to make common
+tasks faster, safer and more consistent across projects.
 
 .. note::
 
    PCA plugins are distributed through the internal PCA QGIS plugin repository.
-   Use the PCA QGIS profile wherever possible so that the repository and related
-   settings are configured automatically.
+
+   Use the PCA QGIS profile wherever possible so that the repository,
+   permissions and related settings are configured automatically.
 
 Keeping plugins up to date
 --------------------------
 
-Keeping plugins current ensures that you receive bug fixes, workflow
-improvements and compatibility updates for supported QGIS versions.
+Keeping plugins current ensures that you receive the latest bug fixes, workflow
+improvements and compatibility updates.
 
-#. Open QGIS and select :menuselection:`Plugins --> Manage and Install Plugins`.
-#. Open the :guilabel:`Upgradeable` tab. This tab is only visible when updates
-   are available.
-#. Review the available updates and select :guilabel:`Upgrade All`.
-#. When the update is complete, restart QGIS if prompted.
+#. Open QGIS.
+#. Select :menuselection:`Plugins --> Manage and Install Plugins`.
+#. Open the :guilabel:`Upgradeable` tab.
+#. Review the available updates.
+#. Select :guilabel:`Upgrade All`.
+#. Restart QGIS if prompted.
 
 .. image:: images/upgrade/open_plugins_window.png
    :alt: Opening the QGIS Manage and Install Plugins window
@@ -31,18 +35,20 @@ improvements and compatibility updates for supported QGIS versions.
    :class: documentation-screenshot
 
 .. image:: images/upgrade/plugins_upgradeable2.png
-   :alt: Upgradeable plugins in QGIS
+   :alt: Upgradeable plugins displayed in QGIS
    :width: 760px
    :align: center
    :class: documentation-screenshot
 
 .. tip::
 
-   If the :guilabel:`Upgradeable` tab is not shown, all installed plugins are
-   already up to date.
+   The :guilabel:`Upgradeable` tab only appears when one or more installed
+   plugins have an available update.
+
+   If the tab is not displayed, your installed plugins are already up to date.
 
 .. image:: images/upgrade/no_updates.png
-   :alt: QGIS plugin manager with no outstanding updates
+   :alt: QGIS Plugin Manager with no outstanding updates
    :width: 760px
    :align: center
    :class: documentation-screenshot
@@ -50,8 +56,17 @@ improvements and compatibility updates for supported QGIS versions.
 Plugin directory
 ----------------
 
-The catalogue below is based on the current PCA plugin repository metadata.
-Compatibility labels describe the versions advertised by each plugin package.
+The catalogue below provides an overview of the tools currently distributed
+through the PCA plugin repository.
+
+.. container:: plugin-directory-intro
+
+   Each plugin is designed for a specific part of the PCA geospatial workflow.
+   Some are lightweight productivity tools, while others support complete
+   archaeological survey, recording or post-excavation processes.
+
+Raster and data conversion
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. container:: plugin-card
 
@@ -62,149 +77,12 @@ Compatibility labels describe the versions advertised by each plugin package.
 
    **Raster to GPKG Converter**
 
-   .. container:: plugin-meta
+   Converts raster datasets into GeoPackage raster layers and automatically
+   builds pyramids for improved display performance.
 
-      ``v2.00``  |  ``Raster``  |  ``QGIS 3.10–4.x``  |  ``Qt 5/6``
-
-   Converts raster datasets to GeoPackage raster layers and builds pyramids for faster display.
-
-   `Project or support page <https://github.com/PCA-Geodata>`__
-
-.. container:: plugin-card
-
-   .. image:: images/icons/pca-geomax-survey-processing.png
-      :alt: PCA Geomax Survey Processing icon
-      :width: 64px
-      :class: plugin-icon
-
-   **PCA Geomax Survey Processing**
-
-   .. container:: plugin-meta
-
-      ``v3.04``  |  ``Survey``  |  ``QGIS 3.10–4.x``  |  ``Qt 5/6``
-
-   Processes PCA survey data using the Geomax code-list workflow and supports DRS/GIS integration.
-
-   `Project or support page <https://github.com/PCA-Geodata/PCA_Geomax_Survey_Processing_QGIS_Plugin>`__
-
-.. container:: plugin-card
-
-   .. image:: images/icons/evaluation-trenches-generator.png
-      :alt: Evaluation Trenches Generator icon
-      :width: 64px
-      :class: plugin-icon
-
-   **Evaluation Trenches Generator**
-
-   .. container:: plugin-meta
-
-      ``v3.01``  |  ``Survey design``  |  ``QGIS 3.10–3.x``  |  ``Qt 5``
-
-   Generates archaeological evaluation trenches and the files required for GNSS setting-out.
-
-   `Project or support page <https://github.com/PCA-Geodata/Evaluation-Trenches-Generator-QGIS-plugin>`__
-
-.. container:: plugin-card
-
-   .. image:: images/icons/pca-post-excavation.png
-      :alt: PCA Post-excavation icon
-      :width: 64px
-      :class: plugin-icon
-
-   **PCA Post-excavation**
-
-   .. container:: plugin-meta
-
-      ``v4.03``  |  ``Post-excavation``  |  ``QGIS 3.10–4.x``  |  ``Qt 5/6``
-
-   Manages groups, entities, periods, sub-periods and phases, updates related datasets, and prepares standardised exports.
-
-   `Project or support page <https://github.com/PCA-Geodata/PCA-PostExcavation-QGIS-Plugin>`__
-
-.. container:: plugin-card
-
-   .. image:: images/icons/pca-drs-context-checks.png
-      :alt: PCA DRS Context Checks icon
-      :width: 64px
-      :class: plugin-icon
-
-   **PCA DRS Context Checks**
-
-   .. container:: plugin-meta
-
-      ``v3.00``  |  ``Quality control``  |  ``QGIS 3.10–4.x``  |  ``Qt 5/6``
-
-   Runs checks against PCA DRS context records, including missing sheets, duplicate numbers and unmatched site-plan features.
-
-   `Project or support page <https://github.com/PCA-Geodata/PCA-DRS-Context-Checks-QGIS-plugin>`__
-
-.. container:: plugin-card
-
-   .. image:: images/icons/search-value.png
-      :alt: Search Value icon
-      :width: 64px
-      :class: plugin-icon
-
-   **Search Value**
-
-   .. container:: plugin-meta
-
-      ``v2.05``  |  ``Navigation``  |  ``QGIS 3.10–4.x``  |  ``Qt 5/6``
-
-   Searches layer attribute values, selects matching records and zooms directly to their geometries.
-
-   `Project or support page <https://github.com/PCA-Geodata/Search-Value-QGIS-plugin>`__
-
-.. container:: plugin-card
-
-   .. image:: images/icons/pca-report-description-generator.png
-      :alt: PCA Report Description Generator icon
-      :width: 64px
-      :class: plugin-icon
-
-   **PCA Report Description Generator**
-
-   .. container:: plugin-meta
-
-      ``v2.00``  |  ``Reporting``  |  ``QGIS 3.10–4.x``  |  ``Qt 5/6``
-
-   Creates draft archaeological descriptions from DRS records using templates for cuts, groups and individual context types.
-
-   `Project or support page <https://github.com/PCA-Geodata/PCA-Report-Description-QGIS-Plugin>`__
-
-.. container:: plugin-card
-
-   .. image:: images/icons/pca-drs-context-sheet-printer.png
-      :alt: PCA DRS Context Sheet Printer icon
-      :width: 64px
-      :class: plugin-icon
-
-   **PCA DRS Context Sheet Printer**
-
-   .. container:: plugin-meta
-
-      ``v2.00``  |  ``Recording``  |  ``QGIS 3.10–4.x``  |  ``Qt 5/6``
-
-   Generates clean, printable PDF sheets for context, trench, cremation and skeleton records using native QGIS layouts.
-
-   `Project or support page <https://github.com/PCA-Geodata/>`__
-
-.. container:: plugin-card
-
-   .. image:: images/icons/check-duplicated-features.png
-      :alt: Check Duplicated Features icon
-      :width: 64px
-      :class: plugin-icon
-
-   **Check Duplicated Features**
-
-   .. container:: plugin-meta
-
-      ``v2.00``  |  ``Quality control``  |  ``QGIS 3.10–4.x``  |  ``Qt 5/6``
-
-   Finds duplicated features using geometry and optional attribute checks, with tools to review or remove results.
-
-   `Project or support page <https://github.com/PCA-Geodata/>`__
+   The plugin provides a consistent way to package orthophotos, survey imagery
+   and other raster data into a portable GeoPackage format suitable for use in
+   PCA QGIS and mobile GIS projects.
 
 .. container:: plugin-card
 
@@ -215,132 +93,50 @@ Compatibility labels describe the versions advertised by each plugin package.
 
    **GeoPackage to SHP Exporter**
 
-   .. container:: plugin-meta
+   Exports each spatial layer contained in a GeoPackage into a separate ESRI
+   Shapefile.
 
-      ``v2.00``  |  ``Export``  |  ``QGIS 3.10–3.x``  |  ``Qt 5``
+   Empty layers and non-spatial tables are excluded automatically, making the
+   tool useful when preparing clean delivery folders or transferring selected
+   datasets into legacy workflows.
 
-   Exports each spatial layer in a GeoPackage to a separate shapefile while excluding empty and non-spatial tables.
-
-   `Project or support page <https://github.com/PCA-Geodata/>`__
-
-.. container:: plugin-card
-
-   .. image:: images/icons/add-save-all-edits-shortcut.png
-      :alt: Add Save All Edits Shortcut icon
-      :width: 64px
-      :class: plugin-icon
-
-   **Add Save All Edits Shortcut**
-
-   .. container:: plugin-meta
-
-      ``v1.03``  |  ``Editing``  |  ``QGIS 3.10–4.x``  |  ``Qt 5/6``
-
-   Adds quick access to QGIS Save Edits for All Layers, reducing the risk of unsaved edits across multi-layer projects.
-
-   `Project or support page <https://github.com/PCA-Geodata/>`__
+Survey and fieldwork
+~~~~~~~~~~~~~~~~~~~~
 
 .. container:: plugin-card
 
-   .. image:: images/icons/mergin-projects-permits-adder.png
-      :alt: Mergin Projects Permits Adder icon
+   .. image:: images/icons/pca-geomax-survey-processing.png
+      :alt: PCA Geomax Survey Processing icon
       :width: 64px
       :class: plugin-icon
 
-   **Mergin Projects Permits Adder**
+   **PCA Geomax Survey Processing**
 
-   .. container:: plugin-meta
+   Processes PCA survey data using the current Geomax code-list workflow and
+   supports integration between survey data, GIS and the PCA DRS system.
 
-      ``v2.00``  |  ``Mergin Maps``  |  ``QGIS 3.10–3.x``  |  ``Qt 5``
+   The plugin is a core component of the PCA survey-processing workflow. It
+   works with raw survey data exported in Shapefile format and applies the
+   structure required by the PCA Geomax code-list system.
 
-   Adds and manages permitted Mergin Maps project folders in QGIS settings while preventing duplicate entries.
-
-   `Project or support page <https://github.com/PCA-Geodata/PCA-Geodata.github.io>`__
+   A dedicated help section is available from the plugin toolbar and provides
+   additional information about processing steps and expected input data.
 
 .. container:: plugin-card
 
-   .. image:: images/icons/pca-finds-distribution-generator.png
-      :alt: PCA Finds Distribution Generator icon
-      :width: 64px
+   .. image:: images/icons/evaluation-trenches-generator.png
+      :alt: Evaluation Trenches Generator icon
+      :width: 350px
       :class: plugin-icon
 
-   **PCA Finds Distribution Generator**
+   **Evaluation Trenches Generator**
 
-   .. container:: plugin-meta
+   Generates archaeological evaluation trenches and prepares the supporting
+   files required for GNSS setting-out.
 
-      ``v2.00``  |  ``Finds``  |  ``QGIS 3.10–3.x``  |  ``Qt 5``
-
-   Creates finds-distribution layers from catalogues, with optional grouped summaries of quantities and weights.
-
-   `Project or support page <https://github.com/PCA-Geodata/>`__
-
-.. container:: plugin-card
-
-   .. image:: images/icons/uk-national-grid-reference-finder.png
-      :alt: UK National Grid Map Reference Finder icon
-      :width: 64px
-      :class: plugin-icon
-
-   **UK National Grid Map Reference Finder**
-
-   .. container:: plugin-meta
-
-      ``v1.1.0``  |  ``Navigation``  |  ``QGIS 3.10–3.x``  |  ``Qt 5``
-
-   Zooms to a UK National Grid Reference and temporarily highlights the resulting map location.
-
-   `Project or support page <https://github.com/PCA-Geodata/>`__
-
-.. container:: plugin-card
-
-   .. image:: images/icons/pca-geometry-quality-control.png
-      :alt: PCA Geometry Quality Control icon
-      :width: 64px
-      :class: plugin-icon
-
-   **PCA Geometry Quality Control**
-
-   .. container:: plugin-meta
-
-      ``v1.30``  |  ``Quality control``  |  ``QGIS 3.10–4.x``  |  ``Qt 5/6``
-
-   Scans project vector layers for null, empty and invalid geometries and provides tools to inspect and report problems.
-
-   `Project or support page <https://github.com/PCA-Geodata/>`__
-
-.. container:: plugin-card
-
-   .. image:: images/icons/pca-data-source-explorer.png
-      :alt: PCA Data Source Explorer icon
-      :width: 64px
-      :class: plugin-icon
-
-   **PCA Data Source Explorer**
-
-   .. container:: plugin-meta
-
-      ``v1.10``  |  ``Project management``  |  ``QGIS 3.10–4.x``  |  ``Qt 5/6``
-
-   Organises project data sources by location and type, identifies missing or external files, and reports duplicate sources.
-
-   `Project or support page <https://github.com/PCA-Geodata/>`__
-
-.. container:: plugin-card
-
-   .. image:: images/icons/replace-clipped-geometry.png
-      :alt: Replace Clipped Geometry icon
-      :width: 64px
-      :class: plugin-icon
-
-   **Replace Clipped Geometry**
-
-   .. container:: plugin-meta
-
-      ``v2.00``  |  ``Editing``  |  ``QGIS 3.10–4.x``  |  ``Qt 5/6``
-
-   Replaces feature geometry while preserving attributes, with native snapping, CAD support, live preview and optional clipping.
-
-   `Project or support page <https://github.com/PCA-Geodata/>`__
+   The tool provides a set of functions for creating evaluation trench layouts
+   in QGIS and converting them into practical survey outputs for use in the
+   field.
 
 .. container:: plugin-card
 
@@ -351,13 +147,209 @@ Compatibility labels describe the versions advertised by each plugin package.
 
    **PCA Fieldwalk Grid Generator**
 
-   .. container:: plugin-meta
+   Creates standardised archaeological fieldwalking grids from a site boundary.
 
-      ``v1.10``  |  ``Survey design``  |  ``QGIS 3.10–4.x``  |  ``Qt 5/6``
+   The plugin generates a British National Grid-aligned 100-metre hectare grid
+   together with an optional detailed collection grid using user-defined cell
+   dimensions.
 
-   Builds British National Grid-aligned hectare and custom collection grids from a site boundary.
+   Grid cells are labelled using a consistent PCA fieldwalking reference system
+   and can be saved directly into the project GeoPackage with the required PCA
+   styles.
 
-   `Project or support page <https://github.com/PCA-Geodata/>`__
+.. container:: plugin-card
+
+   .. image:: images/icons/uk-national-grid-reference-finder.png
+      :alt: UK National Grid Map Reference Finder icon
+      :width: 64px
+      :class: plugin-icon
+
+   **UK National Grid Map Reference Finder**
+
+   Navigates directly to a location using a UK National Grid Reference.
+
+   After a grid reference is entered, the map canvas zooms to the corresponding
+   position and displays a temporary marker to highlight the location.
+
+   This is particularly useful when working from coordinates supplied in field
+   notes, reports, emails or project documentation.
+
+Mergin Maps
+~~~~~~~~~~~
+
+.. container:: plugin-card
+
+   .. image:: images/icons/mergin-projects-permits-adder.png
+      :alt: Mergin Projects Permits Adder icon
+      :width: 64px
+      :class: plugin-icon
+
+   **Mergin Projects Permits Adder**
+
+   Adds and manages permitted Mergin Maps project folders within the QGIS
+   settings.
+
+   The plugin simplifies the configuration of approved project locations,
+   prevents duplicated entries and allows existing paths to be updated through
+   a dedicated interface.
+
+Data quality and checking
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. container:: plugin-card
+
+   .. image:: images/icons/pca-geometry-quality-control.png
+      :alt: PCA Geometry Quality Control icon
+      :width: 64px
+      :class: plugin-icon
+
+   **PCA Geometry Quality Control**
+
+   Scans all vector layers in the current project for geometry problems that
+   may affect editing, analysis or map production.
+
+   The tool identifies null, empty and invalid geometries, summarises the
+   results in a dedicated panel and provides quick actions for reviewing,
+   selecting or removing problematic features.
+
+   Layers can be excluded from the checks using the
+   ``skip_geometry_check`` layer variable, and reports can be copied or
+   exported for project records.
+
+.. container:: plugin-card
+
+   .. image:: images/icons/check-duplicated-features.png
+      :alt: Check Duplicated Features icon
+      :width: 64px
+      :class: plugin-icon
+
+   **Check Duplicated Features**
+
+   Checks a vector layer for duplicated features.
+
+   Duplicates can be identified using geometry alone or by combining geometry
+   and attribute values. Once the check is complete, the results can be
+   reviewed and, where appropriate, removed directly from the layer.
+
+.. container:: plugin-card
+
+   .. image:: images/icons/pca-drs-context-checks.png
+      :alt: PCA DRS Context Checks icon
+      :width: 64px
+      :class: plugin-icon
+
+   **PCA DRS Context Checks**
+
+   Provides a collection of checks for PCA DRS context records during the
+   post-excavation phase.
+
+   The plugin can identify issues such as missing context sheets, duplicated
+   context numbers and recorded features that do not match the site plan.
+
+   Results are displayed in a dockable panel, allowing inconsistencies to be
+   reviewed directly within QGIS.
+
+Project and layer management
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. container:: plugin-card
+
+   .. image:: images/icons/pca-data-source-explorer.png
+      :alt: PCA Data Source Explorer icon
+      :width: 64px
+      :class: plugin-icon
+
+   **PCA Data Source Explorer**
+
+   Provides a structured overview of every data source used in the current QGIS
+   project.
+
+   File-based layers are grouped by folder and source file, making it easier to
+   understand where project data is stored and how it is organised.
+
+   The plugin distinguishes between project data, external files, missing
+   sources, database connections and online services. Multi-layer formats such
+   as GeoPackage and DXF can be expanded to show their internal layers.
+
+   It can also identify repeated data sources and generate a text report
+   containing the project name, project location and source summary.
+
+.. container:: plugin-card
+
+   .. image:: images/icons/search-value.png
+      :alt: Search Value icon
+      :width: 64px
+      :class: plugin-icon
+
+   **Search Value**
+
+   Searches for values across a layer attribute table and navigates directly to
+   matching geometries.
+
+   When a result is found, the corresponding feature can be selected and the
+   map canvas zoomed to its location.
+
+   This is useful when locating context numbers, feature identifiers, drawing
+   references or other recorded values in large datasets.
+
+Editing tools
+~~~~~~~~~~~~~
+
+.. container:: plugin-card
+
+   .. image:: images/icons/replace-clipped-geometry.png
+      :alt: Replace Clipped Geometry icon
+      :width: 64px
+      :class: plugin-icon
+
+   **Replace Clipped Geometry**
+
+   Replaces the geometry of an existing feature while preserving all of its
+   attributes and metadata.
+
+   The plugin supports point, line and polygon layers and uses native QGIS
+   snapping and advanced digitising tools.
+
+   Optional clipping can constrain the replacement geometry to a selected or
+   intersecting polygon, making the tool suitable for detailed archaeological
+   and CAD-style editing workflows.
+
+.. container:: plugin-card
+
+   .. image:: images/icons/add-save-all-edits-shortcut.png
+      :alt: Add Save All Edits Shortcut icon
+      :width: 64px
+      :class: plugin-icon
+
+   **Add Save All Edits Shortcut**
+
+   Adds quick access to the QGIS :guilabel:`Save Edits for All Layers`
+   function.
+
+   The plugin reduces the risk of leaving edits unsaved when working with
+   several editable layers at the same time.
+
+Post-excavation
+~~~~~~~~~~~~~~~
+
+.. container:: plugin-card
+
+   .. image:: images/icons/pca-post-excavation-toolbar.png
+      :alt: PCA Post-excavation icon
+      :width: 600px
+      :class: plugin-icon
+
+   **PCA Post-excavation**
+
+   Supports the management of archaeological post-excavation data directly
+   within QGIS.
+
+   The plugin helps maintain consistent groups, entities, periods, sub-periods
+   and phases, updates related Interventions and DRS records, and prepares
+   standardised exports for reporting and analysis.
+
+   It is designed for routine archaeological GIS use and helps keep
+   post-excavation datasets structured and consistent throughout the project.
 
 .. container:: plugin-card
 
@@ -368,31 +360,85 @@ Compatibility labels describe the versions advertised by each plugin package.
 
    **PCA Export Phased Features**
 
-   .. container:: plugin-meta
+   Exports polygons from the ``Features_for_PostEx`` layer into separate phased
+   ESRI Shapefiles.
 
-      ``v1.02``  |  ``Post-excavation``  |  ``QGIS 3.10–4.x``  |  ``Qt 5/6``
+   Features are grouped using post-excavation phasing fields. The workflow
+   includes export validation, geometry safety checks, an export preview and QA
+   logging.
 
-   Exports Features_for_PostEx polygons into phased shapefiles with validation, preview and QA logging.
+.. container:: plugin-card
 
-   `Project or support page <https://github.com/PCA-Geodata/>`__
+   .. image:: images/icons/pca-finds-distribution-generator.png
+      :alt: PCA Finds Distribution Generator icon
+      :width: 64px
+      :class: plugin-icon
 
-Icon files
+   **PCA Finds Distribution Generator**
+
+   Creates archaeological finds-distribution layers directly from finds
+   catalogues.
+
+   The tool can also generate grouped summaries for contexts, cuts or other
+   recording units, including combined quantities and weights.
+
+   It is intended to make the preparation of finds-distribution outputs faster
+   and more consistent.
+
+Reporting and record output
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. container:: plugin-card
+
+   .. image:: images/icons/pca-report-description-generator.png
+      :alt: PCA Report Description Generator icon
+      :width: 64px
+      :class: plugin-icon
+
+   **PCA Report Description Generator**
+
+   Creates draft archaeological report descriptions directly from PCA DRS
+   context records.
+
+   The plugin supports cut, group and individual context descriptions and uses
+   dedicated templates for fills, layers, masonry, skeletons, cremations and
+   structures.
+
+   Text is generated only from information recorded on the relevant context
+   sheet, helping maintain consistency between field records and reporting.
+   Generated descriptions should always be reviewed and refined before use in
+   a final report.
+
+.. container:: plugin-card
+
+   .. image:: images/icons/pca-drs-context-sheet-printer.png
+      :alt: PCA DRS Context Sheet Printer icon
+      :width: 64px
+      :class: plugin-icon
+
+   **PCA DRS Context Sheet Printer**
+
+   Generates clean, printable PDF recording sheets directly from PCA DRS
+   databases.
+
+   The plugin supports context, trench, cremation and skeleton records and uses
+   native QGIS print layouts to create compact one-page outputs.
+
+   It is designed as part of the integrated PCA DRS and GIS workflow.
+
+Need help?
 ----------
 
-All plugin icons used by this page are stored in one predictable location::
+.. container:: documentation-callout
 
-   qgis_plugins/images/icons/
+   If a plugin is missing, does not update correctly or produces an unexpected
+   result, contact the Geospatial Data Team and include:
 
-The expected filename is shown in each image directive above. Placeholder icons
-have been included for plugins that did not already have a local image. Replace
-a placeholder with the final PNG while keeping the same filename; no RST change
-will then be required. A square transparent PNG of at least 128 × 128 pixels is
-recommended.
+   * the plugin name;
+   * the QGIS version being used;
+   * a screenshot of the problem;
+   * the project location;
+   * a brief description of the action that caused the issue.
 
-Maintenance notes
------------------
-
-When a plugin is added or updated, revise its version, compatibility label and
-summary on this page at the same time as the repository metadata. Keeping the
-page text concise makes the directory easier to scan and reduces duplication
-with each plugin's full user guide.
+   Providing these details will make it easier to investigate the problem
+   quickly.
