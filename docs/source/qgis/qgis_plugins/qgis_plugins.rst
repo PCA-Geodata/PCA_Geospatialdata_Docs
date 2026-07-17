@@ -72,7 +72,7 @@ Raster and data conversion
 
    .. image:: images/icons/raster-to-gpkg-converter.png
       :alt: Raster to GPKG Converter icon
-      :width: 64px
+      :width: 100px
       :class: plugin-icon
 
    **Raster to GPKG Converter**
@@ -88,7 +88,7 @@ Raster and data conversion
 
    .. image:: images/icons/geopackage-to-shp-exporter.png
       :alt: GeoPackage to SHP Exporter icon
-      :width: 64px
+      :width: 100px
       :class: plugin-icon
 
    **GeoPackage to SHP Exporter**
@@ -107,7 +107,7 @@ Survey and fieldwork
 
    .. image:: images/icons/pca-geomax-survey-processing.png
       :alt: PCA Geomax Survey Processing icon
-      :width: 64px
+      :width: 100px
       :class: plugin-icon
 
    **PCA Geomax Survey Processing**
@@ -126,7 +126,7 @@ Survey and fieldwork
 
    .. image:: images/icons/evaluation-trenches-generator.png
       :alt: Evaluation Trenches Generator icon
-      :width: 350px
+      :width: 600px
       :class: plugin-icon
 
    **Evaluation Trenches Generator**
@@ -142,7 +142,7 @@ Survey and fieldwork
 
    .. image:: images/icons/pca-fieldwalk-grid-generator.png
       :alt: PCA Fieldwalk Grid Generator icon
-      :width: 64px
+      :width: 100px
       :class: plugin-icon
 
    **PCA Fieldwalk Grid Generator**
@@ -161,7 +161,7 @@ Survey and fieldwork
 
    .. image:: images/icons/uk-national-grid-reference-finder.png
       :alt: UK National Grid Map Reference Finder icon
-      :width: 64px
+      :width: 100px
       :class: plugin-icon
 
    **UK National Grid Map Reference Finder**
@@ -181,7 +181,7 @@ Mergin Maps
 
    .. image:: images/icons/mergin-projects-permits-adder.png
       :alt: Mergin Projects Permits Adder icon
-      :width: 64px
+      :width: 100px
       :class: plugin-icon
 
    **Mergin Projects Permits Adder**
@@ -200,7 +200,7 @@ Data quality and checking
 
    .. image:: images/icons/pca-geometry-quality-control.png
       :alt: PCA Geometry Quality Control icon
-      :width: 64px
+      :width: 100px
       :class: plugin-icon
 
    **PCA Geometry Quality Control**
@@ -220,7 +220,7 @@ Data quality and checking
 
    .. image:: images/icons/check-duplicated-features.png
       :alt: Check Duplicated Features icon
-      :width: 64px
+      :width: 100px
       :class: plugin-icon
 
    **Check Duplicated Features**
@@ -235,7 +235,7 @@ Data quality and checking
 
    .. image:: images/icons/pca-drs-context-checks.png
       :alt: PCA DRS Context Checks icon
-      :width: 64px
+      :width: 100px
       :class: plugin-icon
 
    **PCA DRS Context Checks**
@@ -256,7 +256,7 @@ Project and layer management
 
    .. image:: images/icons/pca-data-source-explorer.png
       :alt: PCA Data Source Explorer icon
-      :width: 64px
+      :width: 100px
       :class: plugin-icon
 
    **PCA Data Source Explorer**
@@ -278,7 +278,7 @@ Project and layer management
 
    .. image:: images/icons/search-value.png
       :alt: Search Value icon
-      :width: 64px
+      :width: 100px
       :class: plugin-icon
 
    **Search Value**
@@ -299,7 +299,7 @@ Editing tools
 
    .. image:: images/icons/replace-clipped-geometry.png
       :alt: Replace Clipped Geometry icon
-      :width: 64px
+      :width: 100px
       :class: plugin-icon
 
    **Replace Clipped Geometry**
@@ -318,7 +318,7 @@ Editing tools
 
    .. image:: images/icons/add-save-all-edits-shortcut.png
       :alt: Add Save All Edits Shortcut icon
-      :width: 64px
+      :width: 100px
       :class: plugin-icon
 
    **Add Save All Edits Shortcut**
@@ -336,7 +336,7 @@ Post-excavation
 
    .. image:: images/icons/pca-post-excavation-toolbar.png
       :alt: PCA Post-excavation icon
-      :width: 600px
+      :width: 700px
       :class: plugin-icon
 
    **PCA Post-excavation**
@@ -355,7 +355,7 @@ Post-excavation
 
    .. image:: images/icons/pca-export-phased-features.png
       :alt: PCA Export Phased Features icon
-      :width: 64px
+      :width: 100px
       :class: plugin-icon
 
    **PCA Export Phased Features**
@@ -371,7 +371,7 @@ Post-excavation
 
    .. image:: images/icons/pca-finds-distribution-generator.png
       :alt: PCA Finds Distribution Generator icon
-      :width: 64px
+      :width: 100px
       :class: plugin-icon
 
    **PCA Finds Distribution Generator**
@@ -392,7 +392,7 @@ Reporting and record output
 
    .. image:: images/icons/pca-report-description-generator.png
       :alt: PCA Report Description Generator icon
-      :width: 64px
+      :width: 100px
       :class: plugin-icon
 
    **PCA Report Description Generator**
@@ -413,7 +413,7 @@ Reporting and record output
 
    .. image:: images/icons/pca-drs-context-sheet-printer.png
       :alt: PCA DRS Context Sheet Printer icon
-      :width: 64px
+      :width: 100px
       :class: plugin-icon
 
    **PCA DRS Context Sheet Printer**
