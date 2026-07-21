@@ -21,10 +21,12 @@ Steps
 .. figure:: images/projects/login.png
    :alt: Login screen
 
+
 #. Open the **Projects** tab.
 
 .. figure:: images/projects/project_list.png
    :alt: Project list
+
 
 #. Tap the required project.
 
@@ -32,6 +34,7 @@ Steps
 
 .. figure:: images/projects/download.png
    :alt: Download project
+
 
 #. Wait until the download completes.
 
