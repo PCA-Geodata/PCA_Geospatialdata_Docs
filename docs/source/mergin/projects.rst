@@ -43,7 +43,6 @@ Steps
 .. figure:: images/projects/opened.png
    :alt: Open project
 
-   Placeholder – Project opened successfully.
 
 Result
 ------
